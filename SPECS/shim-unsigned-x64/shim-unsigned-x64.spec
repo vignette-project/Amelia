@@ -6,7 +6,7 @@ Release:        6%{?dist}
 URL:            https://github.com/rhboot/shim
 License:        BSD
 Vendor:         Microsoft
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://github.com/rhboot/shim/releases/download/%{version}/shim-%{version}.tar.bz2
 Source1:        cbl-mariner-ca.der
 ExclusiveArch:  x86_64

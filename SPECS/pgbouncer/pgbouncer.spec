@@ -8,7 +8,7 @@ Source0:	https://%{name}.github.io/downloads/files/%{version}/%{name}-%{version}
 Source1:        pgbouncer.service
 Group:		Application/Databases.
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  libevent-devel
 BuildRequires:  openssl-devel
 BuildRequires:  systemd

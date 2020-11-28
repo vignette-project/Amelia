@@ -9,7 +9,7 @@ License:        MIT
 URL:            https://www.lua.org
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://www.lua.org/ftp/%{name}-%{version}.tar.gz
 Source1:        %{LICENSE_PATH}
 Patch0:         lua-5.3.4-shared_library-1.patch

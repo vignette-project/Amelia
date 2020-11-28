@@ -6,7 +6,7 @@ License:        GPLv3+
 URL:            https://www.gnu.org/software/cpio/
 Group:          System Environment/System utilities
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://ftp.gnu.org/gnu/%{name}/%{name}-%{version}.tar.bz2
 
 Conflicts:      toybox

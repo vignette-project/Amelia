@@ -6,7 +6,7 @@ License:        LGPLv2+
 URL:            https://alsa-project.org
 Group:          Applications/Internet
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://www.alsa-project.org/files/pub/lib/%{name}-%{version}.tar.bz2
 BuildRequires:  python2-devel
 BuildRequires:  python2-libs

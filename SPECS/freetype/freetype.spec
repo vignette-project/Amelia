@@ -6,7 +6,7 @@ License:	BSD/GPL
 URL:		https://www.freetype.org/
 Group:		System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	https://download.savannah.gnu.org/releases/freetype/freetype-%{version}.tar.gz
 BuildRequires:	libtool
 BuildRequires:	zlib-devel

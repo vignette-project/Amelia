@@ -8,7 +8,7 @@ License:	GPLv2
 URL:		http://guichaz.free.fr/iotop/
 Group:		System/Monitoring
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://guichaz.free.fr/iotop/files/%{name}-%{version}.tar.gz
 %define sha1 iotop=71a0e7043d83673a40d7ddc57f5b50adab7fff2a
 BuildRequires: python2 python2-libs

@@ -9,7 +9,7 @@ License:        MIT
 Group:          Development/Languages/Python
 Url:            https://github.com/shibukawa/imagesize_py
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:       https://github.com/shibukawa/imagesize_py/archive/%{version}.tar.gz  
 Source0:        https://files.pythonhosted.org/packages/41/f5/3cf63735d54aa9974e544aa25858d8f9670ac5b4da51020bbfc6aaade741/imagesize-%{version}.tar.gz
 

@@ -9,7 +9,7 @@ Group:          Development/Libraries
 License:        MIT
 URL:            http://alastairs-place.net/netifaces/
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://pypi.python.org/packages/source/n/netifaces/netifaces-%{version}.tar.gz
 %define sha1    netifaces=340a91e6cdd03c941a0da464255d6e4b5cbe5512
 BuildRequires:  python2-devel

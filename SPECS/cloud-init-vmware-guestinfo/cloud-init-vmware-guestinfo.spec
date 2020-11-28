@@ -6,7 +6,7 @@ Summary:        A cloud-init datasource for VMware
 Group:          System/Management
 License:        ASL 2.0
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://github.com/vmware/cloud-init-vmware-guestinfo
 
 #Source0:      https://github.com/vmware/%{name}/archive/v%{version}.tar.gz

@@ -6,7 +6,7 @@ Version:        2.9.10
 Release:        3%{?dist}
 License:        MIT
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          System Environment/General Libraries
 URL:            http://www.xmlsoft.org/
 Source0:        ftp://xmlsoft.org/libxml2/%{name}-%{version}.tar.gz

@@ -3,7 +3,7 @@ Version:      5.61.0
 Release:      3%{?dist}
 Summary:      KDE Frameworks 5 Tier 1 addon with various classes on top of QtCore
 Vendor:       Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 License: LGPLv2+
 URL:     https://cgit.kde.org/kcoreaddons.git

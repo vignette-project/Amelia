@@ -9,7 +9,7 @@ Group:      Tools/Container
 Source0:        go-md2man-2.0.0.tar.gz
 URL:            https://github.com/cpuguy83/go-md2man
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires: golang
 BuildRequires: which

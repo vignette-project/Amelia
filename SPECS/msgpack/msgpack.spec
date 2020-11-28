@@ -4,7 +4,7 @@ Version:        3.2.1
 Release:        2%{?dist}
 License:        Boost
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://msgpack.org
 #Source0:       https://github.com/%{name}/%{name}-c/archive/cpp-%{version}.tar.gz
 Source0:        %{name}-c-cpp-%{version}.tar.gz

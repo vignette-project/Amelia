@@ -9,7 +9,7 @@ URL:            http://scons.org
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 %define sha1    scons=498691cf8d4f6da971b99fab0c3480ef944c4d1e
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  python2
 Requires:       python2
 BuildArch:      noarch

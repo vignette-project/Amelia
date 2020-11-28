@@ -19,7 +19,7 @@ License:        MIT
 Group:          Applications/File
 URL:            https://github.com/azure/iotedge
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires:  rust >= 1.39.0
 BuildRequires:  cmake

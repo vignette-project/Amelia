@@ -12,7 +12,7 @@ License:        MIT
 Group:          Development/Libraries
 URL:            https://search.cpan.org/dist/WWW-Curl/
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://search.cpan.org/CPAN/authors/id/S/SZ/SZBALINT/WWW-Curl-%{version}.tar.gz
 Patch0:         0001-Curl-macros-fix.patch
 

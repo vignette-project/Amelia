@@ -8,7 +8,7 @@ License:        BSD
 URL:            https://www.libssh2.org/
 Group:          System Environment/NetworkingLibraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://www.libssh2.org/download/libssh2-%{version}.tar.gz
 %define sha1    libssh2=baf2d1fb338eee531ba9b6b121c64235e089e0f5
 Patch0:         CVE-2019-17498.patch

@@ -6,7 +6,7 @@ License:        Freeware
 URL:            http://www.gnuplot.info/
 Group:          Applications
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 %define sha1    gnuplot=e31e8d9875216f65f9ed0e57b2f62d9dfb0f0714
 

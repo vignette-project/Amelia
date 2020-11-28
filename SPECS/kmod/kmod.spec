@@ -6,7 +6,7 @@ License:        LGPLv2.1+ and GPLv2+
 URL:            http://www.kernel.org/pub/linux/utils/kernel/kmod
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://www.kernel.org/pub/linux/utils/kernel/kmod/%{name}-%{version}.tar.xz
 %define sha1    %{name}-%{version}=761ee76bc31f5db10d470dad607a5f9d68acef68
 BuildRequires:  xz-devel

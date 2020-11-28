@@ -10,7 +10,7 @@ Group:          Development/Languages/Python
 Url:            https://pypi.python.org/pypi/docopt
 Source0:        https://files.pythonhosted.org/packages/source/d/docopt/docopt-%{version}.tar.gz
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires:  python2
 BuildRequires:  python2-libs

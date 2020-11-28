@@ -8,7 +8,7 @@ URL:            https://liburcu.org
 Source0:        %{name}-%{version}.tar.gz
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires:  libxml2-devel
 BuildRequires:  nss-devel

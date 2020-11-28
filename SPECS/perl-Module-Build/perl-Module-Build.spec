@@ -13,7 +13,7 @@ URL:            http://search.cpan.org/dist/Module-Build/
 Source0:        https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-%{version}.tar.gz
 %define sha1 Module-Build=4f78f28187d6525a59cc2e1887e4788964c8029c
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildArch:      noarch
 BuildRequires:  perl >= 5.28.0
 Requires:	perl >= 5.28.0

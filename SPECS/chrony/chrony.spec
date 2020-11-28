@@ -7,7 +7,7 @@ Version:        3.5.1
 Release:        2%{?dist}
 Summary:        An NTP client/server
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 License:        GPLv2
 URL:            https://chrony.tuxfamily.org
 Source0:        https://download.tuxfamily.org/%{name}/%{name}-%{version}.tar.gz

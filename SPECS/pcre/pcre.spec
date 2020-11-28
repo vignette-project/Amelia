@@ -4,7 +4,7 @@ Version:        8.44
 Release:        1%{?dist}
 License:        BSD
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Applications/System
 URL:            https://www.pcre.org
 Source0:        https://ftp.pcre.org/pub/pcre/%{name}-%{version}.tar.bz2

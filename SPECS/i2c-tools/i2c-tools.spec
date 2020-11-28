@@ -5,7 +5,7 @@ Release:        3%{?dist}
 License:        LGPL-2.1+
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Url:            https://i2c.wiki.kernel.org/index.php/I2C_Tools
 Source0:        https://www.kernel.org/pub/software/utils/i2c-tools/%{name}-%{version}.tar.xz
 %define sha1 %{name}-%{version}=d383d1ae86bd695b505dd1251ac399e3cdc1b05f

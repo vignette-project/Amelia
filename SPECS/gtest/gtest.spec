@@ -9,7 +9,7 @@ Source0:        googletest-%{version}.tar.gz
 
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  cmake

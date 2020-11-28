@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            https://git-scm.com/
 Group:          System Environment/Programming
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://www.kernel.org/pub/software/scm/git/%{name}-%{version}.tar.xz
 BuildRequires:  curl-devel
 BuildRequires:  python2

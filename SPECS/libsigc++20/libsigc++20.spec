@@ -6,7 +6,7 @@ License:      LGPLv2+
 URL:          https://github.com/libsigcplusplus/libsigcplusplus
 Group:        Applications/System
 Vendor:       Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 #Source0:     https://github.com/libsigcplusplus/libsigcplusplus/releases/download/%{version}/libsigcplusplus-%{version}.tar.xz
 Source0:      libsigc++-%{version}.tar.xz

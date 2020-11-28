@@ -9,7 +9,7 @@ License:        MPLv2.0
 Group:          Development/Languages/Python
 Url:            https://github.com/HypothesisWorks/hypothesis-python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://files.pythonhosted.org/packages/65/57/c4e2cc37a7b9de3d57a1cd6c200f931807cfdd9f7e05ef4c67fb9c507d65/hypothesis-%{version}.tar.gz
 
 BuildRequires:  python2

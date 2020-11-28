@@ -8,7 +8,7 @@ URL:        http://btrfs.wiki.kernel.org/index.php/Main_Page
 Source0:    https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/%{name}-v%{version}.tar.xz
 %define sha1 btrfs-progs=df4d34b8ecf5eaac177a0b121b41e67fce9612e1
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  lzo-devel
 BuildRequires:  e2fsprogs-devel,libacl-devel
 BuildRequires:  xmlto

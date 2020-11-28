@@ -6,7 +6,7 @@ License:    GPLv2+
 URL:        https://pagure.io/xmlto
 Group:      Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:     http://releases.pagure.org/xmlto/%{name}-%{version}.tar.gz
 %define sha1 xmlto=235feb4d2aeccf7467f458a3e18b20445f89cc0f
 BuildRequires:    docbook-style-xsl

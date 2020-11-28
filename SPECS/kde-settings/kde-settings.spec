@@ -6,7 +6,7 @@ Release:        3%{?dist}
 License:        MIT
 Url:            https://github.com/FedoraKDE/kde-settings
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:       https://github.com/FedoraKDE/kde-settings/archive/%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 Source1:        COPYING

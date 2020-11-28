@@ -8,7 +8,7 @@ Release:        4%{?dist}
 License:        BSD
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Url:            https://pypi.python.org/pypi/Pygments
 Source0:        https://files.pythonhosted.org/packages/source/P/Pygments/Pygments-%{version}.tar.gz
 

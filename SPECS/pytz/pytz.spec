@@ -11,7 +11,7 @@ Url:            https://pypi.python.org/pypi/pytz
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://files.pythonhosted.org/packages/source/p/pytz/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 

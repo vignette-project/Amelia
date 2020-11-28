@@ -6,7 +6,7 @@ License:	MIT
 URL:		https://libexpat.github.io/
 Group:		System Environment/GeneralLibraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://github.com/libexpat/libexpat/releases/download/R_2_2_6/%{name}-%{version}.tar.bz2
 Patch0:         CVE-2018-20843.patch
 Requires:       expat-libs = %{version}-%{release}

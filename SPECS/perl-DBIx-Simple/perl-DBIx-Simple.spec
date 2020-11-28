@@ -9,7 +9,7 @@ Source0:        https://cpan.metacpan.org/authors/id/J/JU/JUERD/DBIx-Simple-%{ve
 %define sha1 DBIx-Simple=7ca4c4ed5c1b6a8f32734e7d5692750b4e01aa17
 URL:            http://search.cpan.org/dist/DBIx-Simple/
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildArch:      noarch
 BuildRequires:  perl-DBI >= 1.21
 BuildRequires:  perl >= 5.28.0

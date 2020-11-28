@@ -8,7 +8,7 @@ Release:        2%{?dist}
 License:        MIT or AFL
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Url:            https://pypi.python.org/pypi/simplejson
 Source0:        https://pypi.python.org/packages/source/s/simplejson/simplejson-%{version}.tar.gz
 

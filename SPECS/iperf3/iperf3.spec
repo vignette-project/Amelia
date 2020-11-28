@@ -6,7 +6,7 @@ License:        BSD and MIT and Public Domain
 URL:            https://github.com/esnet/iperf
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:       https://github.com/esnet/iperf/archive/%{version}.tar.gz
 Source0:        iperf-%{version}.tar.gz
 Patch1:         disablepg.patch

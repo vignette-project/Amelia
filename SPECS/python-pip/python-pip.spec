@@ -7,7 +7,7 @@ Summary:        The PyPA recommended tool for installing Python packages.
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://files.pythonhosted.org/packages/69/81/52b68d0a4de760a2f1979b0931ba7889202f302072cc7a0d614211bc7579/pip-%{version}.tar.gz
 # To get tests:
 # git clone https://github.com/pypa/pip && cd pip

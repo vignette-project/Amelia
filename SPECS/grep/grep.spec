@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		http://www.gnu.org/software/grep
 Group:		Applications/File
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://ftp.gnu.org/gnu/grep/%{name}-%{version}.tar.xz
 %define sha1 grep=d1d677e959c7d874e18e7e3839f26a0f0c1733d5
 Conflicts:      toybox

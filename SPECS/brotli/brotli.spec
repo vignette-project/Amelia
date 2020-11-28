@@ -7,7 +7,7 @@ Version:        1.0.7
 Release:        9%{?dist}
 License:        MIT
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Applications/File
 URL:            https://github.com/google/brotli
 Source0:        %{url}/archive/v%{version}/%{name}-%{version}.tar.gz

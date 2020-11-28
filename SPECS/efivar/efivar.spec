@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            https://github.com/rhboot/efivar
 Group:          System Environment/System Utilities
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://github.com/rhboot/efivar/releases/download/%{version}/%{name}-%{version}.tar.bz2
 %define sha1 efivar=1ef24e0a06e1a42d7a93ba7a76b2970659c7c0c0
 BuildRequires: popt-devel

@@ -9,7 +9,7 @@ Source0:    %{name}-%{version}.pkgupdate.tar.gz
 Patch0: remove-lldp-ethertype-use-linux-5.3-header-instead.patch
 Group:      System Environment/Daemons
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires: libconfig
 BuildRequires: libnl3-devel

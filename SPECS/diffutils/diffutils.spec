@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		http://www.gnu.org/software/diffutils
 Group:		System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://ftp.gnu.org/gnu/diffutils/%{name}-%{version}.tar.xz
 %define sha1 diffutils=1287a553868b808ebfff3790a5cdc6fdf7cb2886
 BuildRequires:  coreutils

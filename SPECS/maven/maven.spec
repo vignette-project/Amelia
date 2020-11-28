@@ -6,7 +6,7 @@ License:        ASL 2.0
 URL:            https://maven.apache.org/
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://archive.apache.org/dist/maven/maven-3/%{version}/source/apache-%{name}-%{version}-src.tar.gz
 Source1:        https://archive.apache.org/dist/maven/maven-3/%{version}/binaries/apache-%{name}-%{version}-bin.tar.gz
 Source2:        apache-%{name}-%{version}-m2.tar.gz

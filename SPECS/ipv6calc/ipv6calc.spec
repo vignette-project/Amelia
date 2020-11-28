@@ -32,7 +32,7 @@ Version:        2.2.0
 Release:        41%{?dist}
 License:        GPLv2
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            http://www.deepspace6.net/projects/%{name}.html
 Source0:        ftp://ftp.bieringer.de/pub/linux/IPv6/ipv6calc/%{name}-%{version}.tar.gz
 Patch0:         ipv6calc-2.2.0-patch-8c7eea58.diff

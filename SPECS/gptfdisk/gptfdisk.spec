@@ -6,7 +6,7 @@ License:	GPLv2+
 URL:		http://sourceforge.net/projects/gptfdisk/
 Group:		System Environment/Filesystem and Disk management
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://downloads.sourceforge.net/project/gptfdisk/%{name}/%{version}/%{name}-%{version}.tar.gz
 %define sha1 gptfdisk=4c2d60bedd4eac1014727e3b126de96966205410
 Patch0:	    gptfdisk-1.0.4-convenience-1.patch

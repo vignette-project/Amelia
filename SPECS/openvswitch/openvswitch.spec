@@ -8,7 +8,7 @@ License:        ASL 2.0 and LGPLv2+
 URL:            http://www.openvswitch.org/
 Group:          System Environment/Daemons
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 Source0:        http://openvswitch.org/releases/%{name}-%{version}.tar.gz
 

@@ -107,7 +107,7 @@ Release:        3%{?dist}
 # LICENSING file in the source tarball.
 License:        LGPLv2+ AND BSD AND Public Domain
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://github.com/besser82/%{name}
 Source0:        %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 # Patch 0000 - 2999: Backported patches from upstream.

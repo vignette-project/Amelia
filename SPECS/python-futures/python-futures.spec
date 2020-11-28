@@ -8,7 +8,7 @@ Group:          Development/Languages/Python
 Url:            https://pypi.python.org/pypi/futures
 Source0:        https://files.pythonhosted.org/packages/1f/9e/7b2ff7e965fc654592269f2906ade1c7d705f1bf25b7d469fa153f7d19eb/futures-%{version}.tar.gz
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  pkg-config
 BuildRequires:  python2
 BuildRequires:  python2-libs

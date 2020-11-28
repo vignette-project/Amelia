@@ -4,7 +4,7 @@ Version:        4.9.3
 Release:        3%{?dist}
 License:        BSD
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Networking
 URL:            https://www.tcpdump.org
 Source0:        https://www.tcpdump.org/release/%{name}-%{version}.tar.gz

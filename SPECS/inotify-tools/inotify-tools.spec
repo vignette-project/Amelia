@@ -7,7 +7,7 @@ Source0:        https://github.com/downloads/rvoicilas/%{name}/%{name}-%{version
 License:        GPLv2
 Group:          Applications/Systems
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Provides:       libinotifytools0
 
 %description

@@ -8,7 +8,7 @@ Url:            https://www.sqlalchemy.org
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://files.pythonhosted.org/packages/source/S/SQLAlchemy/SQLAlchemy-%{version}.tar.gz
 BuildRequires:  python2-devel
 BuildRequires:  python2-libs

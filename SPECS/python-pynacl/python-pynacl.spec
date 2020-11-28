@@ -9,7 +9,7 @@ License:        ASL 2.0
 Group:          Development/Languages/Python
 Url:            https://github.com/pyca/pynacl
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 # The official source is under https://github.com/pyca/pynacl/archive/1.3.0.tar.gz.
 # Source to be fixed as part of https://microsoft.visualstudio.com/OS/_workitems/edit/25936171.
 Source0:        https://files.pythonhosted.org/packages/61/ab/2ac6dea8489fa713e2b4c6c5b549cc962dd4a842b5998d9e80cf8440b7cd/PyNaCl-%{version}.tar.gz

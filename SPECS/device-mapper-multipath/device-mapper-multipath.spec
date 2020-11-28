@@ -5,7 +5,7 @@ Release:        2%{?dist}
 License:        GPLv2
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            http://christophe.varoqui.free.fr/
 #Source0:       https://git.opensvc.com/?p=multipath-tools/.git;a=snapshot;h=refs/tags/%{version};sf=tgz"
 Source0:        multipath-tools-%{version}.tar.gz

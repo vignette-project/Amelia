@@ -9,7 +9,7 @@ License:        BSD
 Url:            https://github.com/oauthlib/oauthlib
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://files.pythonhosted.org/packages/df/5f/3f4aae7b28db87ddef18afed3b71921e531ca288dc604eb981e9ec9f8853/oauthlib-%{version}.tar.gz
 
 BuildRequires:  python2-devel

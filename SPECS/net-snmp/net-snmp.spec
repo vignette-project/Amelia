@@ -5,7 +5,7 @@ Version:        5.9
 Release:        2%{?dist}
 License:        MIT
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Productivity/Networking/Other
 URL:            http://net-snmp.sourceforge.net/
 Source0:        http://sourceforge.net/projects/%{name}/files/%{name}/%{version}/%{name}-%{version}.tar.gz

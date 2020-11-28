@@ -8,7 +8,7 @@ Source0:        https://github.com/hreinecke/sg3_utils/archive/%{name}-%{version
 #Source0:        https://github.com/hreinecke/sg3_utils/archive/v%{version}.tar.gz
 Group:          System/Tools.
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Provides:       sg_utils.
 
 %description

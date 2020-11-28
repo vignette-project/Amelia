@@ -15,7 +15,7 @@ Source1: NOTICE
 Source2: LICENSE
 URL: https://github.com/docker/cli
 Vendor: Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires: golang
 BuildRequires: bash

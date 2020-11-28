@@ -6,7 +6,7 @@ License:        GPLv2+
 URL:            https://nongnu.org/man-db
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://download.savannah.nongnu.org/releases/man-db/%{name}-%{version}.tar.xz
 Requires:       libpipeline
 Requires:       gdbm

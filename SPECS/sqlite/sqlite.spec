@@ -7,7 +7,7 @@ License:        Public Domain
 URL:            https://www.sqlite.org
 Group:          System Environment/GeneralLibraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://www.sqlite.org/2020/%{name}-autoconf-%{sourcever}.tar.gz
 # CVE-2015-3717 applies to versions shipped in iOS and OS X 
 Patch0:         CVE-2015-3717.nopatch

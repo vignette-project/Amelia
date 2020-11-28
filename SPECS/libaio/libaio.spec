@@ -5,7 +5,7 @@ Release:    2%{?dist}
 License:	LGPLv2+
 Group:		System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:        https://pagure.io/libaio
 Source0:    https://releases.pagure.org/%{name}/%{name}-%{version}.tar.gz
 Patch0:		libaio-install-to-destdir-slash-usr.patch

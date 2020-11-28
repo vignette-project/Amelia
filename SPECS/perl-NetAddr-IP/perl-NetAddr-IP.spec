@@ -8,7 +8,7 @@ URL:            https://metacpan.org/release/NetAddr-IP
 Source0:        https://cpan.metacpan.org/authors/id/M/MI/MIKER/NetAddr-IP-%{version}.tar.gz
 %define sha1    NetAddr-IP=41f0048dccf016077e65b93a681e40b4f6b28336
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  perl
 Requires:       perl
 

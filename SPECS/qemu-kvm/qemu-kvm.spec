@@ -4,7 +4,7 @@ Version:        4.2.0
 Release:        21%{?dist}
 License:        GPLv2 AND GPLv2+ AND CC-BY AND BSD
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Development/Tools
 URL:            https://www.qemu.org/
 Source0:        https://download.qemu.org/qemu-%{version}.tar.xz

@@ -6,7 +6,7 @@ License:        BSD/GPL
 URL:            https://www.freedesktop.org/wiki/Software/fontconfig/
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://www.freedesktop.org/software/fontconfig/release/%{name}-%{version}.tar.gz
 BuildRequires:  freetype-devel
 BuildRequires:  libxml2

@@ -6,7 +6,7 @@ Version:        1.9.8
 Release:        2%{?dist}
 License:        GPLv3+
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          System Environment/Daemons
 URL:            https://www.issihosts.com/haveged/
 Source0:        https://github.com/jirka-h/haveged/archive/v%{version}/%{name}-%{version}.tar.gz

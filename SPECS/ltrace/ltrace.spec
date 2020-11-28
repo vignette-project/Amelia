@@ -6,7 +6,7 @@ License:	GPLv2+
 URL:		http://www.ltrace.org/
 Group:		Development/Debuggers
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://www.ltrace.org/%{name}_%{version}.orig.tar.bz2
 %define sha1 ltrace=8df2acc8bc135a229917de6ef814f416d38124ca
 Patch0:		Move-get_hfa_type-from-IA64-backend-to-type.c-name-i.patch

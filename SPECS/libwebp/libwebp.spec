@@ -6,7 +6,7 @@ License:        BSD
 URL:            https://webmproject.org/
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:       https://github.com/webmproject/%{name}/archive/v%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 

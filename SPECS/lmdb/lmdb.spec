@@ -8,7 +8,7 @@ License:       OpenLDAP
 URL:           https://symas.com/lmdb
 Source0:       https://github.com/LMDB/lmdb/archive/LMDB_%{version}.tar.gz
 Source1:       %{name}.pc
-Distribution: Amelia
+Distribution:   Amelia
 Requires:      lmdb-libs = %{version}-%{release}
 
 %description

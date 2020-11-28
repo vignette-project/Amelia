@@ -7,7 +7,7 @@ Summary:        Python Bindings for GObject
 Group:          Development/Languages
 License:        LGPLv2+
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://pypi.org/project/PyGObject
 Source0:        https://files.pythonhosted.org/packages/00/17/198a9d0eb0e89b5c7d2a9b4437eb40d62702ab771030cd79fc7141cb0d30/PyGObject-3.30.1.tar.gz
 Patch0:         pygobject-makecheck-fixes.patch

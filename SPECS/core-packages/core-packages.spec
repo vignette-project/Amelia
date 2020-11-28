@@ -6,7 +6,7 @@ License:        ASL 2.0
 Group:          System Environment/Base
 URL:            http://aka.ms/mariner
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 %description
 Metapackage holding sets of core packages for different applications.

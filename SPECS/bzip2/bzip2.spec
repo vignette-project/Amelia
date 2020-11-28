@@ -6,7 +6,7 @@ License:        BSD
 URL:            https://sourceforge.net/projects/bzip2/
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://downloads.sourceforge.net/project/%{name}/%{name}-%{version}.tar.gz
 Provides:       libbz2.so.1()(64bit)
 Patch0:         http://www.linuxfromscratch.org/patches/lfs/7.2/bzip2-1.0.6-install_docs-1.patch

@@ -6,7 +6,7 @@ License:      OSL 3.0
 URL:          http://freshmeat.net/projects/iana-etc
 Group:        System Environment/Base
 Vendor:       Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildArch:    noarch
 Source0:      http://anduin.linuxfromscratch.org/sources/LFS/lfs-packages/conglomeration//iana-etc/%{name}-%{version}.tar.bz2
 

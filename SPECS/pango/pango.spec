@@ -6,7 +6,7 @@ License:	LGPLv2 or MPLv1.1
 URL:		http://pango.org
 Group:		System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	    https://download.gnome.org/sources/pango/1.40/%{name}-%{version}.tar.xz
 BuildRequires:	glib-devel
 BuildRequires:	cairo

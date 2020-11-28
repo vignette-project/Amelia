@@ -5,7 +5,7 @@ Version:        8.0p1
 Release:        12%{?dist}
 License:        BSD
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          System Environment/Security
 URL:            https://www.openssh.com/
 Source0:        https://ftp.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/%{name}-%{version}.tar.gz

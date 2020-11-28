@@ -8,7 +8,7 @@ Summary:        Implementation of ASN.1 types and codecs in Python programming l
 License:        BSD
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Url:            https://pypi.python.org/pypi/pyasn1
 Source0:        https://files.pythonhosted.org/packages/10/46/059775dc8e50f722d205452bced4b3cc965d27e8c3389156acd3b1123ae3/pyasn1-%{version}.tar.gz
 

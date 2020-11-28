@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		http://www.gnu.org/software/m4
 Group:		Development/Tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://ftp.gnu.org/gnu/m4/%{name}-%{version}.tar.gz
 %define sha1 m4=2f76f8105a45b05c8cfede97b3193cd88b31c657
 

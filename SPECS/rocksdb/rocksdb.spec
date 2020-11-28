@@ -6,7 +6,7 @@ Version:        6.7.3
 Release:        2%{?dist}
 License:        GPLv2+ and ASL 2.0 and BSD
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://rocksdb.org
 #Source0:       https://github.com/facebook/%{name}/archive/v%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz

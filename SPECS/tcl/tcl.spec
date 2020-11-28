@@ -7,7 +7,7 @@ URL:            http://tcl.sourceforge.net/
 License:        LGPLv2+
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://downloads.sourceforge.net/sourceforge/tcl/tcl-core%{version}-src.tar.gz
 %define sha1    tcl-core=e13199c76a7d1eae02f35cc9a20fabded6f815f5
 

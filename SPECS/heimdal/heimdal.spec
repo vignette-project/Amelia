@@ -15,7 +15,7 @@ Version:        7.7.0
 Release:        5%{?dist}
 License:        BSD AND MIT
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://www.heimdal.software/
 Source0:        https://github.com/%{name}/%{name}/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
 Source3:        %{name}.sysconfig

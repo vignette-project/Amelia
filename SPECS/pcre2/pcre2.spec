@@ -6,7 +6,7 @@ License:        BSD-3-Clause
 Group:          Development/Libraries/C and C++
 URL:            https://www.pcre.org/
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://ftp.pcre.org/pub/pcre/%{name}-%{version}.tar.bz2
 BuildRequires:  libgcc
 BuildRequires:  pkg-config

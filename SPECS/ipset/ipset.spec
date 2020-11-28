@@ -7,7 +7,7 @@ URL:        http://ipset.netfilter.org/
 Source0:    http://ipset.netfilter.org/%{name}-%{version}.tar.bz2
 Group:      System Environment/tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:    libmnl-devel
 Requires:         libmnl
 %description

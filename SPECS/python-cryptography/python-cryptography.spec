@@ -9,7 +9,7 @@ Url:            https://pypi.python.org/pypi/cryptography
 License:        ASL 2.0
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://pypi.io/packages/source/c/cryptography/cryptography-%{version}.tar.gz
 %define sha1    cryptography=c550f9ba5a46ad33a0568edc2b9d0f4af3e4adab
 BuildRequires:  python2

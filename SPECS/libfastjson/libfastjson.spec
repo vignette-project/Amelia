@@ -8,7 +8,7 @@ URL:            https://github.com/rsyslog/libfastjson
 Source0:        %{name}-%{version}.tar.gz
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  libtool
 
 %description

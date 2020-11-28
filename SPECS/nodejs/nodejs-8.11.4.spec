@@ -5,7 +5,7 @@ Release:        7%{?dist}
 License:        BSD and MIT and Public Domain and naist-2003
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://github.com/nodejs/node
 Source0:        https://nodejs.org/download/release/v%{version}/node-v%{version}.tar.xz
 Patch0:         patch_tls_nodejs8.patch

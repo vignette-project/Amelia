@@ -6,7 +6,7 @@ License:	GPLv2+
 URL:		https://ftp.gnu.org/gnu/bc/
 Group:		System Environment/base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	https://ftp.gnu.org/gnu/bc/%{name}-%{version}.tar.gz
 %define sha1 bc=b4475c6d66590a5911d30f9747361db47231640a
 BuildRequires:  ed

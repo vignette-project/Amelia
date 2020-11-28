@@ -12,7 +12,7 @@ Release:       5%{?dist}
 Summary:       Programmable system-wide instrumentation system
 Group:         Development/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:           https://sourceware.org/systemtap/
 Source0:       https://sourceware.org/systemtap/ftp/releases/systemtap-%{version}.tar.gz
 License:       GPLv2+

@@ -6,7 +6,7 @@ License:	GPLv3
 URL:		http://www.gnu.org/software/sed
 Group:		Applications/Editors
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://ftp.gnu.org/gnu/sed/%{name}-%{version}.tar.xz
 %define sha1 sed=6635c344956ef928cc33aca798ad20c6c1ea25f7
 Conflicts:      toybox

@@ -6,7 +6,7 @@ License:        BSD 2-Clause and GPLv2
 URL:            http://lz4.github.io/lz4/
 Group:          Applications
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://github.com/lz4/lz4/archive/v%{version}/%{name}-%{version}.tar.gz
 # Version format changed from r131 to v1.7.3 on Nov 16, 2016
 # see https://github.com/lz4/lz4/tags?after=v1.7.4.2

@@ -6,7 +6,7 @@ License:    GPLv2+
 URL:        http://www.netfilter.org/projects/libnetfilter_conntrack/index.html
 Group:      System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:    http://www.netfilter.org/projects/%{name}/files/%{name}-%{version}.tar.bz2
 %define sha1 libnetfilter_conntrack=5ea797b62b5add69ad2c769734f7a6f597c71ebd
 

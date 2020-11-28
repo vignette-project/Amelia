@@ -7,7 +7,7 @@ URL:		http://swig.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/project/swig/swig/swig-%{version}/swig-%{version}.tar.gz
 %define sha1 swig=5cc1af41d041e4cc609580b99bb3dcf720effa25
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:	pcre-devel
 Requires:	pcre
 

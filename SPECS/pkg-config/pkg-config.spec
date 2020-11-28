@@ -6,7 +6,7 @@ License:	GPLv2+
 URL:		http://www.freedesktop.org/wiki/Software/pkg-config
 Group:		Development/Tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://pkgconfig.freedesktop.org/releases/%{name}-%{version}.tar.gz
 %define sha1 pkg-config=76e501663b29cb7580245720edfb6106164fad2b
 Patch0:         pkg-config-glib-CVE-2018-16428.patch

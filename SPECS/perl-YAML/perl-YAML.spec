@@ -9,7 +9,7 @@ URL:            http://search.cpan.org/dist/YAML/
 Source0:        https://cpan.metacpan.org/authors/id/T/TI/TINITA/YAML-%{version}.tar.gz
 %define sha1 YAML=61ea2e31ed1828fb2acebe97cf5c8231fe64b8eb
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildArch:      noarch
 BuildRequires:	perl >= 5.28.0
 Requires:	perl >= 5.28.0

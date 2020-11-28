@@ -8,7 +8,7 @@ URL:            https://wiki.gnome.org/Projects/Vala
 Group:          Development/Languages
 License:        LGPL
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://download.gnome.org/sources/vala/%{majver}/vala-%{version}.tar.xz
 
 BuildRequires: glib-devel

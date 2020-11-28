@@ -5,7 +5,7 @@ Summary:      Filesystem and RPM macros for KDE Frameworks 5
 License:      BSD
 URL:          http://www.kde.org
 Vendor:       Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildArch: noarch
 Source0: macros.kf5

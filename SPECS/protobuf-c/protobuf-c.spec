@@ -5,7 +5,7 @@ Release:        4%{?dist}
 License:        BSD-3-Clause
 Group:          Development/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://github.com/protobuf-c/protobuf-c
 Source0:        https://github.com/protobuf-c/protobuf-c/releases/download/v%{version}/%{name}-%{version}.tar.gz
 %define         sha1 protobuf-c=37cbb1e8dc07d8819328f2cac9aec757c8d51756

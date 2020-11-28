@@ -4,7 +4,7 @@ Version:       1.8.1
 Release:       3%{?dist}
 Group:         Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 License:       GPLv2
 URL:           https://github.com/linux-nvme/nvme-cli
 Source0:       https://github.com/linux-nvme/%{name}/archive/%{name}-%{version}.tar.gz

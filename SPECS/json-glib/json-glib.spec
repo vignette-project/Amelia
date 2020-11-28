@@ -8,7 +8,7 @@ Source0:    	https://ftp.gnome.org/pub/GNOME/sources/json-glib/1.4/%{name}-%{ver
 URL:        	https://wiki.gnome.org/Projects/JsonGlib
 Patch0:         Remove-references-to-mesontest-binary.patch
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  gobject-introspection-python

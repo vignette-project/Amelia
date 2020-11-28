@@ -8,7 +8,7 @@ License:        GPLv2+
 URL:            http://netfilter.org/projects/libnftnl/
 Source0:        https://netfilter.org/projects/libnftnl/files/%{name}-%{version}.tar.bz2
 %define sha1 %{name}-%{version}=d2be642a54e0f105cb5564471ae4aaaed8b97ca6
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  libmnl-devel
 BuildRequires:  jansson-devel
 

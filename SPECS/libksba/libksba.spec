@@ -8,7 +8,7 @@ Group:		Security/Libraries.
 Source0:        https://www.gnupg.org/ftp/gcrypt/%{name}/%{name}-%{version}.tar.bz2
 %define sha1 libksba=a98385734a0c3f5b713198e8d6e6e4aeb0b76fde
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  libgpg-error-devel >= 1.2
 
 %description

@@ -7,7 +7,7 @@ URL:        https://github.com/tpm2-software/tpm2-abrmd/releases/
 Source0:    https://github.com/tpm2-software/tpm2-abrmd/releases/download/%{version}/%{name}-%{version}.tar.gz
 Group:      System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires:  which dbus-devel glib-devel tpm2-tss-devel
 Requires:   dbus glib tpm2-tss

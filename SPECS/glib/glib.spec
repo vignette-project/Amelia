@@ -6,7 +6,7 @@ License:	LGPLv2+
 URL:		https://developer.gnome.org/glib/
 Group:		Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://ftp.gnome.org/pub/gnome/sources/glib/2.58/%{name}-%{version}.tar.xz
 %define sha1 glib=c00e433c56e0ba3541abc5222aeca4136de10fb8
 Patch0:         glib-CVE-2019-12450.patch

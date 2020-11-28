@@ -8,7 +8,7 @@ Release:        5%{?dist}
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Url:            https://github.com/openstack/pylockfile
 Source0:        https://pypi.python.org/packages/source/l/lockfile/lockfile-%{version}.tar.gz
 %define sha1    lockfile=c2ac46e48585e5f8f8d57ccc55ca83faa8b53b86

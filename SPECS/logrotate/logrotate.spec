@@ -8,7 +8,7 @@ URL:            https://github.com/logrotate/logrotate/
 Source0:        %{name}-%{version}.tar.gz
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires:  popt-devel
 

@@ -9,7 +9,7 @@ License:        BSD
 Group:          Development/Languages/Python
 Url:            https://github.com/shibukawa/snowball_py
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://pypi.python.org/packages/20/6b/d2a7cb176d4d664d94a6debf52cd8dbae1f7203c8e42426daa077051d59c/snowballstemmer-%{version}.tar.gz
 %define sha1    snowballstemmer=377be08ed935d401a53cba79319d1812cfe46b81
 

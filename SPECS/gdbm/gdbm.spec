@@ -6,7 +6,7 @@ License:        GPLv3+
 URL:            http://www.gnu.org/software/gdbm
 Group:          Applications/Databases
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://ftp.gnu.org/gnu/gdbm/%{name}-%{version}.tar.gz
 %define sha1    gdbm=0f1056ab3beb1bf09dad06f8083f2c79716a5b1b
 

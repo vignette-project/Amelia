@@ -6,7 +6,7 @@ License:	BSD
 URL:		http://www.nasm.us
 Group:		System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 ExclusiveArch:  x86_64
 Source0:	http://www.nasm.us/pub/nasm/releasebuilds/%{version}/%{name}-%{version}.tar.gz
 %define sha1 nasm=fa15c35b6003518d8165ab507f31af5d3938e91f

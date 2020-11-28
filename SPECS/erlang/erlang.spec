@@ -5,7 +5,7 @@ Version:      22.0.7
 Release:      2%{?dist}
 Group:        Development/Languages
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 License:      ASL 2.0
 URL:          https://erlang.org
 Source0:      https://github.com/erlang/otp/archive/OTP-%{version}/otp-OTP-%{version}.tar.gz

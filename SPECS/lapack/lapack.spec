@@ -6,7 +6,7 @@ URL:            http://www.netlib.org/lapack/
 License:        BSD
 Group:          Development/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://www.netlib.org/%{name}/%{name}-%{version}.tar.gz
 %define         sha1 %{name}=55ac9d6be510883c5442c8aca967722cdf58fb29
 

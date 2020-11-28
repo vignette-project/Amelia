@@ -6,7 +6,7 @@ License:    BSD
 URL:        https://sourceforge.net/projects/tboot/
 Group:      System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:    http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 ExclusiveArch: x86_64
 BuildRequires: trousers-devel

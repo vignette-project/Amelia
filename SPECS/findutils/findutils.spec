@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		http://www.gnu.org/software/findutils
 Group:		Applications/File
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://ftp.gnu.org/gnu/findutils/%{name}-%{version}.tar.gz
 %define sha1 findutils=f18e8aaee3f3d4173a1f598001003be8706d28b0
 Conflicts:      toybox

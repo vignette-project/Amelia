@@ -6,7 +6,7 @@ License:	GPLv2+
 URL:		https://sourceforge.net/projects/net-tools/
 Group:		System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	https://downloads.sourceforge.net/project/%{name}/%{name}-%{version}.tar.bz2
 Patch0:		Bug#632660-netstat.c-long_udp6_addr.patch
 Patch1:		CVS-20020730-route.c_opts_64.patch

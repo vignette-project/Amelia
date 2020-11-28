@@ -6,7 +6,7 @@ Version:        1.4.1
 Release:        2%{?dist}
 License:        ASL 2.0
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://fluentbit.io
 #Source0:       https://github.com/fluent/%{name}/archive/v%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz

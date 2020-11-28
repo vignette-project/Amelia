@@ -8,7 +8,7 @@ Version:        2.1.0
 Release:        5%{?dist}
 License:        LGPLv2.1 AND GPLv2
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Applications/RPM
 URL:            https://github.com/vmware/tdnf/wiki
 #Source0:       https://github.com/vmware/tdnf/archive/v%{version}.tar.gz

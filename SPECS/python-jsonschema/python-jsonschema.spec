@@ -10,7 +10,7 @@ Group:          Development/Languages/Python
 Url:            https://pypi.python.org/pypi/jsonschema
 Source0:        https://pypi.python.org/packages/source/j/jsonschema/jsonschema-%{version}.tar.gz
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires: python2
 BuildRequires: python2-libs

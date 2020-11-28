@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		http://libpipeline.nongnu.org
 Group:		Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://download.savannah.gnu.org/releases/libpipeline/%{name}-%{version}.tar.gz
 %define sha1 libpipeline=1c885e4d5551933c905e751048abb119593c53f4
 

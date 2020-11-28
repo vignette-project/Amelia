@@ -21,7 +21,7 @@ Source0:        https://cpan.metacpan.org/authors/id/T/TI/TIMB/DBI-%{version}.ta
 #Source0:        DBI-%{version}_repackaged.tar.gz
 %define sha1 DBI=d14c34fac2dd058905b0b8237a4ca8b86eed6f5d
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  perl >= 5.28.0
 Requires:	perl >= 5.28.0
 

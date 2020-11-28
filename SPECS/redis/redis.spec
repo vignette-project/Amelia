@@ -6,7 +6,7 @@ License:	    BSD
 URL:		    https://redis.io/
 Group:		    Applications/Databases
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	    https://download.redis.io/releases/%{name}-%{version}.tar.gz
 Patch0:         redis-conf.patch
 Patch1:         CVE-2020-14147.patch

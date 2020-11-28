@@ -5,7 +5,7 @@ Version:        0.1.11
 Release:        4%{?dist}
 Summary:        Comps XML file manipulation library
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 License:        GPLv2+
 URL:            https://github.com/rpm-software-management/libcomps

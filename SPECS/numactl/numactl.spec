@@ -8,7 +8,7 @@ Source0:        https://github.com/numactl/numactl/releases/download/v%{version}
 %define sha1    %{name}=81c9fa6ab9d41e1cb37103ca4f76ef2b0d37b6e0
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 %description
 Simple NUMA policy support. It consists of a numactl program to run other programs with a specific NUMA policy.
 

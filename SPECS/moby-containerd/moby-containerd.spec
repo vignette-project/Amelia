@@ -19,7 +19,7 @@ Source3: NOTICE
 Source4: LICENSE
 URL: https://www.containerd.io
 Vendor: Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 %{?systemd_requires}
 

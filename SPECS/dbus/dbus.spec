@@ -5,7 +5,7 @@ Version:        1.13.6
 Release:        4%{?dist}
 License:        GPLv2+ OR AFL
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Applications/File
 URL:            https://www.freedesktop.org/wiki/Software/dbus
 Source0:        https://%{name}.freedesktop.org/releases/%{name}/%{name}-%{version}.tar.gz

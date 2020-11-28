@@ -4,7 +4,7 @@ Version:        1.1.0
 Release:        6%{?dist}
 License:        BSD and JSON and MIT
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Development/Tools
 URL:            https://github.com/Tencent/rapidjson
 Source0:        https://github.com/Tencent/%{name}/archive/%{name}-%{version}.tar.gz

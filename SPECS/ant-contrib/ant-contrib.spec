@@ -6,7 +6,7 @@ License:        ASL 1.1
 URL:            https://ant-contrib.sourceforge.net
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildArch:      noarch
 
 Source0:        https://sourceforge.net/projects/%{name}/files/%{name}/%{version}/%{name}-%{version}-src.tar.gz

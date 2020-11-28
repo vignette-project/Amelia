@@ -9,7 +9,7 @@ License:        ASL 2.0
 Group:          Development/Languages/Python
 Url:            https://github.com/pyca/bcrypt/
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://files.pythonhosted.org/packages/ce/3a/3d540b9f5ee8d92ce757eebacf167b9deedb8e30aedec69a2a072b2399bb/bcrypt-%{version}.tar.gz
 
 BuildRequires:  python2

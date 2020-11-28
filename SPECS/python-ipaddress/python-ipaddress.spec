@@ -8,7 +8,7 @@ License:        Python Software Foundation License (Python Software Foundation L
 Group:          Development/Languages/Python
 Url:            https://pypi.python.org/pypi/ipaddress
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://files.pythonhosted.org/packages/source/i/ipaddress/ipaddress-%{version}.tar.gz
 
 BuildRequires:  python2

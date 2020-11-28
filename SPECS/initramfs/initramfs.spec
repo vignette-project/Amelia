@@ -6,7 +6,7 @@ Source0:	fscks.conf
 License:	Apache License
 Group:		System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Provides:	initramfs
 Requires:	dracut
 

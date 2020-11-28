@@ -5,7 +5,7 @@ Version:        2.2.5
 Release:        4%{?dist}
 License:        MIT
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Applications/System
 URL:            https://github.com/microsoft/OMS-Auditd-Plugin
 #Source0:       https://github.com/microsoft/OMS-Auditd-Plugin/archive/v2.2.5-0.tar.gz

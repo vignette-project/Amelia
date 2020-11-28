@@ -5,7 +5,7 @@ Version:        8.1.1667
 Release:        1%{?dist}
 License:        Vim
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Applications/Editors
 URL:            https://www.vim.org
 #Source0:       https://github.com/%{name}/%{name}/archive/v%{version}.tar.gz

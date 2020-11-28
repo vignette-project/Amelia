@@ -9,7 +9,7 @@ Release:        16%{?dist}
 License:        GPLv2
 Summary:        The kexec/kdump userspace component
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 Source0: http://kernel.org/pub/linux/utils/kernel/kexec/%{name}-%{version}.tar.xz
 Source1: kdumpctl

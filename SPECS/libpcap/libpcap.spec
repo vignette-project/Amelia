@@ -6,7 +6,7 @@ License:        BSD
 URL:            https://www.tcpdump.org/
 Group:          Networking/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:       https://github.com/the-tcpdump-group/%{name}/archive/%{name}-%{version}.tar.gz
 Source0:        %{name}-%{name}-%{version}.tar.gz
 

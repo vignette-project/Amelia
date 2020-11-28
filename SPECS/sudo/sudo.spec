@@ -6,7 +6,7 @@ License:        ISC
 URL:            https://www.sudo.ws/
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://www.sudo.ws/sudo/dist/%{name}-%{version}.tar.gz
 BuildRequires:  man-db
 BuildRequires:  pam-devel

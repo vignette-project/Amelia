@@ -9,7 +9,7 @@ License:        GPLv2+ and LGPLv2+ and BSD
 URL:            https://rpm.org
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://github.com/rpm-software-management/rpm/archive/%{name}-%{version}-release.tar.gz
 Source1:        brp-strip-debug-symbols
 Source2:        brp-strip-unneeded

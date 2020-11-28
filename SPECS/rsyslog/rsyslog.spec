@@ -11,7 +11,7 @@ Source2:        50-rsyslog-journald.conf
 Source3:        rsyslog.conf
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  systemd-devel
 BuildRequires:  libestr-devel
 BuildRequires:  libfastjson-devel

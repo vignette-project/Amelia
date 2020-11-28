@@ -8,7 +8,7 @@ Source0:        https://sourceforge.net/projects/%{name}/files/Expect/%{version}
 %define sha1    expect=a97b2f377c6a799928d6728c2ada55beb7f57d96
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Requires:       tcl
 BuildRequires:  tcl-devel
 

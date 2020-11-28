@@ -7,7 +7,7 @@ Group:         System Environment/Libraries
 Url:           https://github.com/seccomp/libseccomp/wiki
 Source0:       https://github.com/seccomp/libseccomp/releases/download/v%{version}/%{name}-%{version}.tar.gz
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 %if %{with_check}
 BuildRequires: which
 %endif

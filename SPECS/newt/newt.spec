@@ -7,7 +7,7 @@ URL:		  https://pagure.io/newt
 Group:		  Development/Languages
 Source0:      https://pagure.io/releases/%{name}/%{name}-%{version}.tar.gz
 Vendor:       Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 Requires: slang
 BuildRequires: slang-devel

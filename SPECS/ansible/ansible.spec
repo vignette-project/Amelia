@@ -8,7 +8,7 @@ License:        GPLv3+
 URL:            https://www.ansible.com
 Group:          Development/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://releases.ansible.com/ansible/%{name}-%{version}.tar.gz
 
 

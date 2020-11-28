@@ -8,7 +8,7 @@ Source0:	http://downloads.sourceforge.net/hdparm/%{name}-%{version}.tar.gz
 %define sha1 hdparm=9e143065115229c4f929530157627dc92e5f6deb
 Group:		Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 %description
 The Hdparm package contains a utility that is useful for controlling ATA/IDE

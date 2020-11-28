@@ -16,7 +16,7 @@ Version:        1.13.15
 Release:        2%{?dist}
 License:        BSD
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          System Environment/Security
 URL:            https://golang.org
 Source0:        https://dl.google.com/go/go%{version}.src.tar.gz

@@ -7,7 +7,7 @@ Version:        1.1.1
 Release:        1%{?dist}
 License:        BSD
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Development/Languages/Python
 URL:            https://pypi.python.org/pypi/MarkupSafe
 Source0:        https://pypi.python.org/packages/source/M/%{pypi_name}/%{pypi_name}-%{version}.tar.gz

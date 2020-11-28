@@ -8,7 +8,7 @@ URL:		    http://www.selinuxproject.org
 Source0:        https://github.com/SELinuxProject/selinux/releases/download/20190315/%{name}-%{version}.tar.gz
 Source1:        https://sourceforge.net/projects/cunit/files/CUnit-2.1-2-src.tar.bz2
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 %description
 Security-enhanced Linux is a feature of the Linux® kernel and a number

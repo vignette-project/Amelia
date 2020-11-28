@@ -4,7 +4,7 @@ Version:        3.2.0
 Release:        3%{?dist}
 License:        LGPLv2+
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            http://libxmlplusplus.sourceforge.net/
 Source0:        https://ftp.gnome.org/pub/GNOME/sources/%{name}/3.2/%{name}-%{version}.tar.xz
 BuildRequires:  glibmm24-devel

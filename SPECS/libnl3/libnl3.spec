@@ -9,7 +9,7 @@ URL:            https://www.infradead.org/~tgr/libnl/
 # Note that a branch tag made it into the name using underscores in the semver. This will have to be updated with versions.
 Source0:        https://github.com/thom311/libnl/releases/download/%{name}_4_0/libnl-%{version}.tar.gz
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  glib-devel
 BuildRequires:  dbus-devel
 Requires:       glib

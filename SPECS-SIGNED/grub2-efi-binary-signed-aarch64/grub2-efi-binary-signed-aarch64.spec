@@ -5,7 +5,7 @@ Version:        2.02
 Release:        25%{?dist}
 License:        GPLv3+
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://www.gnu.org/software/grub
 # This package's "version" and "release" must reflect the unsigned version that
 # was signed.

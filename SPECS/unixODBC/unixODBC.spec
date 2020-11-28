@@ -6,7 +6,7 @@ License:    GPLv2+ and LGPLv2+
 URL:        http://www.unixodbc.org/
 Group:      System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:    ftp://ftp.unixodbc.org/pub/unixODBC/%{name}-%{version}.tar.gz
 %define sha1 unixODBC=a066c4f3fcb19befbaf5a5801b830ec41b7318df
 

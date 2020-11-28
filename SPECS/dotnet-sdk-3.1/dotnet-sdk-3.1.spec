@@ -4,7 +4,7 @@ Name:           dotnet-sdk-3.1
 Version:        3.1.105
 Release:        1%{?dist}
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 License:        MIT
 Url:            https://github.com/dotnet/core
 Group:          Development/Tools

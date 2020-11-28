@@ -6,7 +6,7 @@ License:      GPLv3
 Group:        System Environment/Base
 Vendor:       Microsoft Corporation
 URL:          http://www.linuxfromscratch.org
-Distribution: Amelia
+Distribution:   Amelia
 
 %description
 The filesystem package is one of the basic packages that is installed

@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            http://asciidoc.org/
 Group:          System Environment/Development
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:       https://github.com/%{name}/%{name}-py3/archive/%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch

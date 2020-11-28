@@ -6,7 +6,7 @@ License:        BSD
 URL:            https://github.com/lsof-org/lsof
 Group:          System Environment/Tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:       https://github.com/lsof-org/%{name}/archive/%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 

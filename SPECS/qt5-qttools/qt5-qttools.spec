@@ -3,7 +3,7 @@ Name:         qt5-qttools
 Version:      5.12.5
 Release:      5%{?dist}
 Vendor:       Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 License: LGPLv3 or LGPLv2
 Url:     http://www.qt.io

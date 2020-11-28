@@ -6,7 +6,7 @@ URL:            https://sourceforge.net/projects/openipmi/
 License:        LGPLv2+ and GPLv2+ or BSD
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://sourceforge.net/projects/openipmi/files/latest/download/openipmi-%{version}.tar.gz
 Source1:        openipmi-helper
 Source2:        ipmi.service

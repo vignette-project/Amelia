@@ -9,7 +9,7 @@ License:        BSD
 Group:          Development/Languages/Python
 Url:            https://github.com/bitprophet/alabaster/
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://files.pythonhosted.org/packages/3f/46/9346ea429931d80244ab7f11c4fce83671df0b7ae5a60247a2b588592c46/alabaster-%{version}.tar.gz
 BuildRequires:  python2
 BuildRequires:  python2-devel

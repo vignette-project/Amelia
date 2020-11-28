@@ -8,7 +8,7 @@ License:        ASL 1.1 and ASL 2.0 and BSD and BSD with advertising and GPL+ an
 URL:            https://openjdk.java.net
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 # Source0 tarball is generated from Mercurial clones
 # See generate_source_tarball.sh
 Source0:        openjdk-%{version}-b04.tar.gz

@@ -6,7 +6,7 @@ License:    MIT
 URL:        https://github.com/rockdaboot/libpsl
 Group:      System Environment/Development
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:    https://github.com/rockdaboot/libpsl/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
 %define sha1 libpsl=890376d6038652911cfa853ccfb5b993ae0743ee
 

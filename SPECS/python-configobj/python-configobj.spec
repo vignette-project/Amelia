@@ -12,7 +12,7 @@ Url:            https://github.com/DiffSK/configobj
 Source0:        https://files.pythonhosted.org/packages/64/61/079eb60459c44929e684fa7d9e2fdca403f67d64dd9dbac27296be2e0fab/configobj-%{version}.tar.gz
 Source1:        LICENSE.BSD
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires:  python2
 BuildRequires:  python2-libs

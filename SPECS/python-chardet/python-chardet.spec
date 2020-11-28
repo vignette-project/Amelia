@@ -9,7 +9,7 @@ Url:            https://github.com/chardet/chardet
 License:        LGPLv2+
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:       https://github.com/chardet/chardet/archive/%{version}.tar.gz
 Source0:        chardet-%{version}.tar.gz
 

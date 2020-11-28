@@ -4,7 +4,7 @@ Version:        2.0.1
 Release:        3%{?dist}
 License:        MIT AND GPLv2
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          System Environment
 URL:            https://www.efficios.com/babeltrace
 Source0:        https://www.efficios.com/files/babeltrace/%{name}-%{version}.tar.bz2

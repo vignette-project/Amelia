@@ -6,7 +6,7 @@ License:        MIT
 URL:            https://github.com/microsoft/tracelogging
 Group:          System Environment
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 #Source0:       https://github.com/microsoft/%{name}/archive/v%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz

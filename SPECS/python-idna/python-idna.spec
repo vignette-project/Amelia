@@ -9,7 +9,7 @@ Url:            https://github.com/kjd/idna
 License:        BSD-like
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:       https://github.com/kjd/idna/archive/v%{version}.tar.gz
 Source0:        idna-%{version}.tar.gz
 

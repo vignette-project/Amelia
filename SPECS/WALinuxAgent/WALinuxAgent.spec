@@ -9,7 +9,7 @@ Url:            https://github.com/Azure/WALinuxAgent
 Source0:        https://github.com/Azure/WALinuxAgent/archive/%{name}-%{version}.tar.gz
 Patch0:         add-distro.patch
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires:  python2
 BuildRequires:  python2-libs

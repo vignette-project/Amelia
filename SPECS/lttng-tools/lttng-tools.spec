@@ -7,7 +7,7 @@ URL:            https://lttng.org/
 Source0:        https://lttng.org/files/lttng-tools/%{name}-%{version}.tar.bz2
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 BuildRequires: libxml2-devel >= 2.7.6
 BuildRequires: nss-devel

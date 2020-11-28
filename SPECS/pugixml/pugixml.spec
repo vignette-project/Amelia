@@ -4,7 +4,7 @@ Version:        1.10
 Release:        2%{?dist}
 License:        MIT
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          System Environment
 URL:            https://pugixml.org
 #Source0:       https://github.com/zeux/%{name}/archive/v%{version}.tar.gz

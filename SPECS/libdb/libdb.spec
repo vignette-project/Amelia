@@ -8,7 +8,7 @@ Source0:	http://download.oracle.com/berkeley-db/db-%{version}.tar.gz
 %define sha1 db=fa3f8a41ad5101f43d08bc0efb6241c9b6fc1ae9
 Group:		System/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Obsoletes:      db
 %description
 The Berkeley DB package contains libraries used by many other applications for database related functions.

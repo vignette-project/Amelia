@@ -4,7 +4,7 @@ Version:        7.1.0
 Release:        1%{?dist}
 License:        zlib
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://github.com/leethomason/tinyxml2/
 
 #Source0:       https://github.com/leethomason/%{name}/archive/%{version}.tar.gz

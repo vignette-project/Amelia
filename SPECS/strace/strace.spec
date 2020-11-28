@@ -6,7 +6,7 @@ License:    LGPL-2.1+ and GPL-2.0+
 URL:		https://strace.io/
 Group:		Development/Debuggers
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	https://strace.io/files/%{version}/%{name}-%{version}.tar.xz
 BuildRequires:	libacl-devel, libaio-devel
 %global __requires_exclude ^/usr/bin/perl$

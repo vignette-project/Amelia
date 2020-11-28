@@ -6,7 +6,7 @@ License:        ASL 2.0 and MIT
 URL:            https://www.rust-lang.org/
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://static.rust-lang.org/dist/rustc-%{version}-src.tar.xz
 Source1:        %{name}-%{version}-cargo.tar.gz
 Source2:        https://static.rust-lang.org/dist/2019-09-26/cargo-0.39.0-x86_64-unknown-linux-gnu.tar.gz

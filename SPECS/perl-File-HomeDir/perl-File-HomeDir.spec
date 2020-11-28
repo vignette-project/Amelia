@@ -8,7 +8,7 @@ URL:            http://search.cpan.org/dist/File-HomeDir/
 Source0:        https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-HomeDir-%{version}.tar.gz
 %define sha1 File-HomeDir=7d2ceddfd2f331cc1ac0dc160b0d4a91302ee418
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildArch:      noarch
 BuildRequires:	perl >= 5.28.0
 %if %{with_check}

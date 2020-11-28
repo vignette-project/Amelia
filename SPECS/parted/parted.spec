@@ -6,7 +6,7 @@ License:        GPLv3+
 URL:            http://ftp.gnu.org/gnu/parted/parted-3.2.tar.xz
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://ftp.gnu.org/gnu/parted/%{name}-%{version}.tar.xz
 Conflicts:      toybox
 

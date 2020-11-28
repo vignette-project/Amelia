@@ -6,7 +6,7 @@ License:        GPLv2 or GPLv2 with FLOSS License Exception
 URL:            https://oss.oetiker.ch/rrdtool/
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://github.com/oetiker/rrdtool-1.x/releases/download/v%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	pkg-config
 BuildRequires:	libpng-devel

@@ -6,7 +6,7 @@ License:        LGPLv2+
 URL:            https://github.com/containers/bubblewrap/
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://github.com/containers/bubblewrap/releases/download/v%{version}/bubblewrap-%{version}.tar.xz
 # This vulnerability only applies to version >= 0.4.0. Ignore the warnings against it.
 Patch0:         CVE-2020-5291.nopatch

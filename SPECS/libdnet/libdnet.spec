@@ -7,7 +7,7 @@ URL:            https://code.google.com/p/libdnet
 Source0:        https://github.com/dugsong/%{name}/archive/%{name}-%{version}.tar.gz
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Patch0:         DisableMakeCheckCases.patch
 %description
 libdnet provides a simplified, portable interface to several low-level networking routines.

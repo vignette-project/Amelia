@@ -8,7 +8,7 @@ Release:        8%{?dist}
 License:        BSD
 Group:          Development/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://developers.google.com/protocol-buffers/
 #Source0:       https://github.com/protocolbuffers/protobuf/archive/v%{version}.tar.gz
 Source0:        protobuf-%{version}.tar.gz

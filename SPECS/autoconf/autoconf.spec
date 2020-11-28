@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            http://www.gnu.org/software/autoconf
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://ftp.gnu.org/gnu/autoconf/%{name}-%{version}.tar.xz
 Patch0:         autoconf-make-check.patch
 

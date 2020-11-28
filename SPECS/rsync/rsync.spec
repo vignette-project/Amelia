@@ -9,7 +9,7 @@ Source0:        https://download.samba.org/pub/rsync/src/%{name}-%{version}.tar.
 Patch0:         CVE-2017-16548.nopatch
 Group:          Appication/Internet
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  zlib-devel
 BuildRequires:  systemd
 Requires:       zlib

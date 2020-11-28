@@ -10,7 +10,7 @@ Source0:        https://cpan.metacpan.org/authors/id/L/LE/LEEJO/CGI-%{version}.t
 URL:            http://search.cpan.org/dist/CGI
 %define sha1 CGI=cbbd078f6e8d7dfcc5821e9c56e0212e0c0731a8
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildArch:      noarch
 BuildRequires:  perl >= 5.28.0
 BuildRequires:  coreutils

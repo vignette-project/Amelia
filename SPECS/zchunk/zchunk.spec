@@ -6,7 +6,7 @@ License:        BSD 2-Clause AND MIT
 URL:            https://github.com/zchunk/zchunk
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:        https://github.com/zchunk/zchunk/archive/%{version}.tar.gz
 Source0:        https://github.com/zchunk/zchunk/archive/%{name}-%{version}.tar.gz
 

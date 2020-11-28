@@ -6,7 +6,7 @@ License:        GPL
 URL:            http://www.haproxy.org
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://www.haproxy.org/download/2.1/src/%{name}-%{version}.tar.gz
 BuildRequires:  openssl-devel
 BuildRequires:  pcre-devel

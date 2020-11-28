@@ -8,7 +8,7 @@ Group:      Development/Libraries
 Source0:    http://www.ivmaisoft.com/_bin/atomic_ops/libatomic_ops-%{version}.tar.gz
 %define sha1 libatomic_ops=89a320bc94860fc63069615a0a7ee6f38eee9b70
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 %description
 This package provides semi-portable access to hardware-provided atomic memory update operations on a number of architectures.

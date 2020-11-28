@@ -5,7 +5,7 @@ Release:        3%{?dist}
 License:        MIT
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:            https://github.com/json-c/json-c
 #Source0:       %{url}/archive/%{name}-%{version}-20200419.tar.gz
 Source0:        %{name}-%{name}-%{version}-20200419.tar.gz

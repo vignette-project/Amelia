@@ -12,7 +12,7 @@ Patch1:         CVE-2020-14342-fix.patch
 
 
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  libcap-ng-devel
 BuildRequires:  libtalloc-devel
 Requires:       libcap-ng

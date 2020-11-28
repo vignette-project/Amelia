@@ -7,7 +7,7 @@ URL:			https://www.gnu.org/software/hurd/community/gsoc/project_ideas/libcap.htm
 Source0:		https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/%{name}-%{version}.tar.xz
 Group:			System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 %description
 The libcap package implements the user-space interfaces to the POSIX 1003.1e capabilities available
 in Linux kernels. These capabilities are a partitioning of the all powerful root privilege

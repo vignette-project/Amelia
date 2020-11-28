@@ -6,7 +6,7 @@ License:        GPLv2+
 URL:            http://www.gnu.org/software/binutils
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://ftp.gnu.org/gnu/binutils/%{name}-%{version}.tar.xz
 Patch0:         CVE-2019-9070.nopatch
 Patch1:         CVE-2019-9075.patch

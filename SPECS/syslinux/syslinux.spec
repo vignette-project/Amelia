@@ -7,7 +7,7 @@ License:        GPLv2+
 URL:            http://www.syslinux.org
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://www.kernel.org/pub/linux/utils/boot/%{name}/Testing/%{version}/%{name}-%{version}-pre1.tar.xz
 Patch0:	        0001-Add-install-all-target-to-top-side-of-HAVE_FIRMWARE.patch
 ExclusiveArch:  x86_64

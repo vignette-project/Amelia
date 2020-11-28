@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            https://chrpath.alioth.debian.org/
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://alioth-archive.debian.org/releases/%{name}/%{name}/%{version}/%{name}-%{version}.tar.gz
 
 %description

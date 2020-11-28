@@ -5,7 +5,7 @@ Release:        2%{?dist}
 Name:           p11-kit
 Summary:        Library for loading and sharing PKCS#11 modules
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 License:        BSD
 URL:            https://p11-glue.freedesktop.org/p11-kit.html

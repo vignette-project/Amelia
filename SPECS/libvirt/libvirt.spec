@@ -12,7 +12,7 @@ Patch1:         CVE-2017-1000256.nopatch
 Patch2:         CVE-2020-25637.patch
 Group:          Virtualization/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  cyrus-sasl
 BuildRequires:  device-mapper-devel
 BuildRequires:  gnutls-devel

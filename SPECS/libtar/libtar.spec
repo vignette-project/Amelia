@@ -6,7 +6,7 @@ URL:            https://github.com/tklauser/libtar/
 License:        BSD
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 #Source0:       https://github.com/tklauser/%{name}/archive/v%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 Patch0:         libtar-gen-debuginfo.patch

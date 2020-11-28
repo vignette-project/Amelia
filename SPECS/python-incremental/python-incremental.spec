@@ -8,7 +8,7 @@ Release:        4%{?dist}
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Url:            https://pypi.python.org/pypi/incremental
 Source0:        https://files.pythonhosted.org/packages/source/i/incremental/incremental-%{version}.tar.gz
 

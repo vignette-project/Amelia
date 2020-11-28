@@ -6,7 +6,7 @@ License:        MIT
 URL:            http://curl.haxx.se
 Group:          System Environment/NetworkingLibraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://curl.haxx.se/download/%{name}-%{version}.tar.gz
 BuildRequires:  openssl-devel
 BuildRequires:  krb5-devel

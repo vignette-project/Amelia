@@ -6,7 +6,7 @@ License:    GPLv2
 URL:        http://www.netfilter.org/projects/libnetfilter_cthelper/index.html
 Group:      System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:    http://www.netfilter.org/projects/%{name}/files/%{name}-%{version}.tar.bz2
 %define sha1 libnetfilter_cthelper=5d0a82794bd46aafde20c16800edca23d563de66
 

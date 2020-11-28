@@ -8,7 +8,7 @@ Source0:        http://www.ezix.org/software/files/%{name}-%{version}.tar.gz
 %define sha1 lshw=c0240f5e53cf40769d52e316719e8010ea6bdea3
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 %description
 lshw is a small tool to provide detailed informaton on the hardware

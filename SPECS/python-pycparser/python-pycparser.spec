@@ -8,7 +8,7 @@ Url:            https://pypi.python.org/pypi/pycparser
 License:        BSD
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://pypi.python.org/packages/source/p/pycparser/pycparser-%{version}.tar.gz
 %define sha1    pycparser=1c75af69ae6273b1f1f531744f87d060965ed85d
 

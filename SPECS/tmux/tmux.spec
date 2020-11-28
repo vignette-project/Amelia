@@ -6,7 +6,7 @@ License:        GPLv3+
 URL:            https://tmux.github.io/
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://github.com/tmux/tmux/releases/download/%{version}/%{name}-%{version}.tar.gz
 %define sha1    tmux=a12bb094bf0baf0275b6d5cc718c938639712e97
 Requires:       libevent ncurses

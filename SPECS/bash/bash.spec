@@ -4,7 +4,7 @@ Version:        4.4.18
 Release:        6%{?dist}
 License:        GPLv3
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          System Environment/Base
 URL:            https://www.gnu.org/software/bash/
 Source0:        https://ftp.gnu.org/gnu/%{name}/%{name}-%{version}.tar.gz

@@ -7,7 +7,7 @@ Group:          System Environment
 Source0:        https://launchpad.net/cloud-utils/trunk/0.3/+download/cloud-utils-%{version}.tar.gz
 URL:            https://launchpad.net/cloud-utils
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Requires:       gptfdisk
 Requires:       gawk
 Requires:       util-linux

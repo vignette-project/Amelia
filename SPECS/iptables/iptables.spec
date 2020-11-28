@@ -6,7 +6,7 @@ License:        GPLv2+
 URL:            http://www.netfilter.org/projects/iptables
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://www.netfilter.org/projects/iptables/files/%{name}-%{version}.tar.bz2
 %define sha1    %{name}-%{version}=6df99e90cb4d59032ab2050ebb426fe065249bd3
 Source1:        iptables.service

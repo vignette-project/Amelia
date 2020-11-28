@@ -6,7 +6,7 @@ License:	Boost Software License V1
 URL:		http://www.boost.org/
 Group:		System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://downloads.sourceforge.net/boost/boost_1_66_0.tar.bz2
 %define sha1 boost=b6b284acde2ad7ed49b44e856955d7b1ea4e9459
 BuildRequires:	bzip2-devel

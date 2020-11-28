@@ -6,7 +6,7 @@ License:        ASL 2.0
 URL:            https://httpd.apache.org/
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        https://archive.apache.org/dist/%{name}/%{name}-%{version}.tar.bz2
 Patch0:         httpd-blfs_layout-1.patch
 Patch1:         httpd-uncomment-ServerName.patch

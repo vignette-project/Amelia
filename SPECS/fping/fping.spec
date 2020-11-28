@@ -5,7 +5,7 @@ Release:       2%{?dist}
 License:       BSD with advertising
 Group:         Productivity/Networking/Diagnostic
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 URL:           https://www.fping.org/
 Source0:       https://fping.org/dist/%{name}-%{version}.tar.gz
 BuildRequires: autoconf

@@ -7,7 +7,7 @@ Version:        2.28
 Release:        14%{?dist}
 License:        LGPLv2+
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          Applications/System
 URL:            https://www.gnu.org/software/libc
 Source0:        https://ftp.gnu.org/gnu/glibc/%{name}-%{version}.tar.xz

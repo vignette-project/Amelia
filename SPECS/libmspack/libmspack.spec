@@ -6,7 +6,7 @@ License:        LGPLv2+
 URL:            http://www.cabextract.org.uk/libmspack/libmspack-0.5alpha.tar.gz
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://www.cabextract.org.uk/libmspack/%{name}-%{version}.tar.gz
 %define sha1    libmspack=073348180586d7b0f61fd7f971162ffb5c1f6621
 %description

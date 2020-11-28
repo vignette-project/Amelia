@@ -11,7 +11,7 @@ License:        GPLv2+
 Group:          System Environment/Security
 URL:            https://people.redhat.com/sgrubb/audit/
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 BuildRequires:  krb5-devel
 BuildRequires:  openldap
 BuildRequires:  golang

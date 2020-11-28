@@ -6,7 +6,7 @@ License:        GPLv3+
 URL:            https://www.gnu.org/software/texinfo/
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:        http://ftp.gnu.org/gnu/%{name}/%{name}-%{version}.tar.xz
 Patch0:         texinfo-perl-fix.patch
 BuildRequires:  perl

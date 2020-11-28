@@ -6,7 +6,7 @@ License:	GPLv3
 URL:		http://www.gnu.org/software/gettext
 Group:		Applications/System
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://ftp.gnu.org/gnu/gettext/%{name}-%{version}.tar.xz
 %define sha1 gettext=e0fe90ede22f7f16bbde7bdea791a835f2773fc9
 

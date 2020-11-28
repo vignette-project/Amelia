@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		https://www.gnupg.org/(fr)/related_software/libassuan/index.html
 Group:		Development/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	ftp://ftp.gnupg.org/gcrypt/%{name}/%{name}-%{version}.tar.bz2
 %define sha1 libassuan=c8432695bf1daa914a92f51e911881ed93d50604
 Requires:	libgpg-error >= 1.21

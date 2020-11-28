@@ -10,7 +10,7 @@ Source:         https://cpan.metacpan.org/modules/by-module/Net/Net-SSLeay-%{ver
 Source100:      openssl-fips-2.0.9-lin64.tar.gz
 %endif
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Requires:       perl >= 5.28.0
 Requires:       openssl
 BuildRequires:  perl >= 5.28.0

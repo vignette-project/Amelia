@@ -6,7 +6,7 @@ Version:        5.4.72
 Release:        3%{?dist}
 License:        GPLv2
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Group:          System Environment/Kernel
 URL:            https://github.com/microsoft/WSL2-Linux-Kernel
 Source0:        https://github.com/microsoft/WSL2-Linux-Kernel/archive/linux-msft-%{version}.tar.gz

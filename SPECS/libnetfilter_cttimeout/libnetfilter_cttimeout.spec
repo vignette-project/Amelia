@@ -6,7 +6,7 @@ License:    GPLv2+
 URL:        http://www.netfilter.org/projects/libnetfilter_cttimeout/index.html
 Group:      System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:    http://www.netfilter.org/projects/%{name}/files/%{name}-%{version}.tar.bz2
 %define sha1 libnetfilter_cttimeout=24cba24b0371e80007be4ea0fa9d872df63b8a7a
 

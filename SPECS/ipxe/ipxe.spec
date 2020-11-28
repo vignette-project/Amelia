@@ -11,7 +11,7 @@ Source0:        https://github.com/ipxe/ipxe/archive/%{name}-%{version}.tar.gz
 #Source0:        https://github.com/ipxe/ipxe/archive/v%{version}.tar.gz
 Group:          System Environment/Daemons
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 ExclusiveArch:  x86_64
 BuildRequires:  binutils
 BuildRequires:  binutils-devel

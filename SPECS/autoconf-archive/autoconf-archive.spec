@@ -8,7 +8,7 @@ License:	GPLv3+
 URL:		http://www.gnu.org/software/autoconf-archive
 Group:		System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 Source0:	http://ftp.gnu.org/gnu/%{name}/%{name}-%{version}.tar.xz
 %define sha1 autoconf-archive=6177513edcf3998e07684cf65fbb7470acc72997
 

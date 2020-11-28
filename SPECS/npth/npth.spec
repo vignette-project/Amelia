@@ -8,7 +8,7 @@ Group:		System Environment/Libraries.
 Source0:        https://github.com/gpg/%{name}/archive/%{name}-%{version}.tar.gz
 %define sha1 npth=3f3c68d439c2f8a798423de38b9a6eb32c0c417e
 Vendor:         Microsoft Corporation
-Distribution: Amelia
+Distribution:   Amelia
 
 %description
 This is a library to provide the GNU Pth API and thus a non-preemptive threads implementation.
