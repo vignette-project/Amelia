@@ -6,7 +6,7 @@ diff -uNr cloud-init-18.3/cloudinit/config/cc_resolv_conf.py cloud-init-18.3-new
  frequency = PER_INSTANCE
  
 -distros = ['fedora', 'opensuse', 'rhel', 'sles']
-+distros = ['fedora', 'opensuse', 'rhel', 'sles', 'mariner']
++distros = ['fedora', 'opensuse', 'rhel', 'sles', 'amelia']
  
  
 -def generate_resolv_conf(template_fn, params, target_fname="/etc/resolv.conf"):
