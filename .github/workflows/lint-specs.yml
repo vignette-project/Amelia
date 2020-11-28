@@ -40,11 +40,11 @@ jobs:
           echo "Files to validate: '${changed_specs}'"
           echo "updated-specs=$(echo ${changed_specs})" >> $GITHUB_ENV
 
-      - name: Main branch checkout 
-        uses: actions/checkout@v2
-        with:
-          ref: 'main'
-          path: 'main-checkout'
+#      - name: Main branch checkout 
+#        uses: actions/checkout@v2
+#        with:
+#          ref: 'main'
+#          path: 'main-checkout'
 
       # Our linter is based on the spec-cleaner tool from the folks at openSUSE
       # We apply a patch to modify it for CBL-Mariner's needs
