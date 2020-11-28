@@ -1,11 +1,11 @@
-Summary:        CBL-Mariner repo files, gpg keys
+Summary:        Amelia-Mariner repo files, gpg keys
 Name:           mariner-repos
 Version:        1.0
 Release:        11%{?dist}
 License:        Apache License
 Group:          System Environment/Base
-URL:            https://aka.ms/mariner
-Vendor:         Microsoft Corporation
+URL:            N/A
+Vendor:         Vignette Developers
 Distribution:   Amelia
 Source0:        MICROSOFT-RPM-GPG-KEY
 Source1:        MICROSOFT-METADATA-GPG-KEY
@@ -20,10 +20,10 @@ Requires(preun): rpm
 BuildArch:      noarch
 
 %description
-CBL-Mariner repo files and gpg keys
+Amelia-Mariner repo files and gpg keys
 
 %package preview
-Summary:    CBL-Mariner preview repo file.
+Summary:    Amelia-Mariner preview repo file.
 Group:      System Environment/Base
 Requires:   %{name} = %{version}-%{release}
 

@@ -1,12 +1,12 @@
-Summary:       CBL-Mariner release files
-Name:          mariner-release
+Summary:       Amelia-Mariner release files
+Name:          amelia-release
 Version:       1.0
 Release:       11%{?dist}
 License:       MIT
 Group:         System Environment/Base
-URL:           https://aka.ms/cbl-mariner
-Vendor:        Microsoft Corporation
-Distribution:  Mariner
+URL:           N/A
+Vendor:        Vignette Developers
+Distribution:  Amelia
 BuildArch:     noarch
 
 # Allows package management tools to find and set the default value
@@ -14,7 +14,7 @@ BuildArch:     noarch
 Provides: system-release(releasever)
 
 %description
-Azure CBL-Mariner release files such as yum configs and other /etc/ release related files
+Amelia-Mariner release files such as yum configs and other /etc/ release related files
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -25,10 +25,10 @@ echo "CBL-Mariner %{mariner_release_version}" > %{buildroot}/etc/mariner-release
 echo "MARINER_BUILD_NUMBER=%{mariner_build_number}" >> %{buildroot}/etc/mariner-release
 
 cat > %{buildroot}/etc/lsb-release <<- "EOF"
-DISTRIB_ID="Mariner"
+DISTRIB_ID="Amelia"
 DISTRIB_RELEASE="%{mariner_release_version}"
-DISTRIB_CODENAME=Mariner
-DISTRIB_DESCRIPTION="CBL-Mariner %{mariner_release_version}"
+DISTRIB_CODENAME=Amelia
+DISTRIB_DESCRIPTION="Amelia-Mariner %{mariner_release_version}"
 EOF
 
 version_id=`echo %{mariner_release_version} | grep -o -E '[0-9]+.[0-9]+' | head -1`
@@ -37,7 +37,7 @@ NAME="Common Base Linux Mariner"
 VERSION="%{mariner_release_version}"
 ID=mariner
 VERSION_ID=$version_id
-PRETTY_NAME="CBL-Mariner/Linux"
+PRETTY_NAME="Amelia-Mariner/Linux"
 ANSI_COLOR="1;34"
 HOME_URL="%{url}"
 BUG_REPORT_URL="%{url}"
@@ -47,11 +47,11 @@ EOF
 ln -sv ../usr/lib/os-release %{buildroot}/etc/os-release
 
 cat > %{buildroot}/etc/issue <<- EOF
-Welcome to CBL-Mariner %{mariner_release_version} (%{_arch}) - Kernel \r (\l)
+Welcome to Amelia-Mariner %{mariner_release_version} (%{_arch}) - Kernel \r (\l)
 EOF
 
 cat > %{buildroot}/etc/issue.net <<- EOF
-Welcome to CBL-Mariner %{mariner_release_version} (%{_arch}) - Kernel %r (%t)
+Welcome to Amelia-Mariner %{mariner_release_version} (%{_arch}) - Kernel %r (%t)
 EOF
 
 %clean
@@ -67,6 +67,8 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) /etc/issue.net
 
 %changelog
+*   Sat Nov 28 2020 Ayane Satomi <chinodesuuu@gmail.com> - 1.0.11-ame1
+-   Change branding to Amelia
 *   Fri Nov 20 2020 Nicolas Guibourge <nicolasg@microsoft.com> - 1.0-11
 -   Updating version for November update
 *   Sat Oct 24 2020 Jon Slobodzian <joslobo@microsoft.com> - 1.0-10

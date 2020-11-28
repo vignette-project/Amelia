@@ -5,7 +5,7 @@ Release:	3%{?dist}
 License:	GPL+
 Group:		Development/System
 Vendor:		Microsoft Corporation
-Distribution:	Mariner
+Distribution:	Amelia
 Source0: macros
 Source1: rpmrc
 Source2: default-hardened-cc1
