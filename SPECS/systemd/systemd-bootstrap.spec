@@ -4,7 +4,7 @@ Version:        239
 Release:        31%{?dist}
 License:        LGPLv2+ AND GPLv2+ AND MIT
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          System Environment/Security
 URL:            https://www.freedesktop.org/wiki/Software/systemd/
 #Source0:       https://github.com/systemd/systemd-stable/archive/v%{version}.tar.gz

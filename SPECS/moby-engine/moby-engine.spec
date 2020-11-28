@@ -29,7 +29,7 @@ Source4: LICENSE
 Source5: NOTICE
 URL: https://mobyproject.org
 Vendor: Microsoft Corporation
-Distribution: Mariner
+Distribution: Amelia
 
 %{?systemd_requires}
 

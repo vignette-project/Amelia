@@ -8,7 +8,7 @@ License:        Boost
 URL:            https://github.com/martinmoene/span-lite
 Group:          System Environment
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       %{url}/archive/v%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 

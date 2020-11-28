@@ -8,7 +8,7 @@ Release:        3%{?dist}
 License:        BSD
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            https://pypi.python.org/pypi/mistune/
 Source0:        https://files.pythonhosted.org/packages/source/m/mistune/mistune-%{version}.tar.gz
 %define sha1    mistune=993c67443f393f9645d5f969492a8a107d9edc5f

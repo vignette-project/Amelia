@@ -19,7 +19,7 @@ License:        MIT
 Group:          Applications/File
 URL:            https://github.com/Azure/azure-iot-sdk-c
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  cmake
 BuildRequires:  build-essential
 BuildRequires:  curl-devel

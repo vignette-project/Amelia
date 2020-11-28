@@ -6,7 +6,7 @@ License:        NTP
 URL:            http://www.ntp.org/
 Group:          System Environment/NetworkingPrograms
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-4.2/%{name}-%{version}.tar.gz
 %define sha1    ntp=cff200a987d64e891fb349a22313ecb0feaea090
 

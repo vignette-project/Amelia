@@ -6,7 +6,7 @@ URL:            http://search.cpan.org/~kwilliams/Path-Class-0.37/
 License:        The Perl 5 License (Artistic 1 & GPL 1)
 Group:          Development/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source:         http://search.cpan.org/CPAN/authors/id/K/KW/KWILLIAMS/Path-Class-%{version}.tar.gz
 %define sha1    Path-Class=448cc1089add95d6a616a8e22adbde83dcb8f562
 

@@ -7,7 +7,7 @@ Group:          System Environment/Base
 URL:            https://sourceware.org/lvm2/
 Source0:        ftp://sourceware.org/pub/lvm2/releases/LVM2.%{version}.tgz
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source1:        lvm2-activate.service
 Patch0:         lvm2-set-default-preferred_names.patch
 BuildRequires:  libselinux-devel, libsepol-devel

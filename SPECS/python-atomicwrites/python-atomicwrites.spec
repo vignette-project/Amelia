@@ -8,7 +8,7 @@ Release:        5%{?dist}
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            https://github.com/untitaker/python-atomicwrites
 #Source0:       https://github.com/untitaker/python-atomicwrites/archive/%{version}.tar.gz
 Source0:        atomicwrites-%{version}.tar.gz

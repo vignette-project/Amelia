@@ -7,7 +7,7 @@ License:        BSD and GPLv2+
 Group:          System Environment/Libraries
 URL:            https://github.com/thkukuk/libnsl
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Requires:       libtirpc
 Requires:       rpcsvc-proto
 BuildRequires:  libtirpc-devel

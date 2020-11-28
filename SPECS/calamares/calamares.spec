@@ -11,7 +11,7 @@ Version:        3.2.11
 Release:        36%{?dist}
 Summary:        Installer from a live CD/DVD/USB to disk
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution:   Amelia
 
 License:        GPLv3+
 URL:            https://calamares.io/

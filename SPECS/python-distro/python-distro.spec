@@ -9,7 +9,7 @@ Release:        3%{?dist}
 License:        ASL
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            https://pypi.python.org/pypi/distro
 Source0:        https://files.pythonhosted.org/packages/ca/e3/78443d739d7efeea86cbbe0216511d29b2f5ca8dbf51a6f2898432738987/distro-%{version}.tar.gz
 %define sha1    distro=d72ac60844b2b472fc815441afe60fc1da728926

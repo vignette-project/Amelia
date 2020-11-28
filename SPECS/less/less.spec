@@ -6,7 +6,7 @@ License:        GPLv3+
 URL:            http://www.greenwoodsoftware.com/less
 Group:          Applications/File
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://www.greenwoodsoftware.com/less/%{name}-%{version}.tar.gz
 %define sha1 %{name}=d8ba1f43e88b706ef701f978cd3262b5b44dffd6
 BuildRequires:  ncurses-devel

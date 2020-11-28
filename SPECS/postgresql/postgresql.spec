@@ -4,7 +4,7 @@ Version:        12.5
 Release:        1%{?dist}
 License:        PostgreSQL
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          Applications/Databases
 URL:            https://www.postgresql.org
 Source0:        https://ftp.postgresql.org/pub/source/v%{version}/%{name}-%{version}.tar.bz2

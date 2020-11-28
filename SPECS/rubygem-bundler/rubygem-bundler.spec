@@ -9,7 +9,7 @@ Summary:        manages an application's dependencies
 Group:          Development/Languages
 License:        MIT
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 URL:            https://rubygems.org/gems/%{gem_name}/versions/%{version}
 Source0:        https://rubygems.org/downloads/%{gem_name}-%{version}.gem
 

@@ -6,7 +6,7 @@ License:        MIT
 URL:            http://xmlsoft.org/libxslt/
 Group:          System Environment/General Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://xmlsoft.org/sources/%{name}-%{version}.tar.gz
 Requires:       libxml2-devel
 Requires:       libgcrypt

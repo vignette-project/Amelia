@@ -4,7 +4,7 @@ Version:        0.1.10
 Release:        5%{?dist}
 License:        LGPLv2+
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          System Environment/Base
 URL:            https://libestr.adiscon.com/
 Source0:        http://%{name}.adiscon.com/files/download/%{name}-%{version}.tar.gz

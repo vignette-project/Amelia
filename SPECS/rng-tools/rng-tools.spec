@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            https://github.com/nhorman/rng-tools
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 # For some reason, this file downloads as rng-tools-rng-tools-5.tar.gz on Chrome, but wget is fine
 Source0:        https://github.com/nhorman/%{name}/archive/%{name}-%{version}.tar.gz
 Source1:        rngd.service

@@ -7,7 +7,7 @@ URL:            https://gnupg.org/index.html
 Group:          Applications/Cryptography.
 Source0:        https://gnupg.org/ftp/gcrypt/gnupg/gnupg-%{version}.tar.bz2
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 BuildRequires:  zlib-devel
 BuildRequires:  bzip2-devel

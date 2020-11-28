@@ -8,7 +8,7 @@ License:        GPLv2+
 URL:            https://sbabic.github.io/swupdate/
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       https://github.com/sbabic/swupdate/archive/%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 Source1:        .config

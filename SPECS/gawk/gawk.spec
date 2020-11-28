@@ -6,7 +6,7 @@ License:	GPLv3
 URL:		http://www.gnu.org/software/gawk
 Group:		Applications/File
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:		http://ftp.gnu.org/gnu/gawk/%{name}-%{version}.tar.xz
 %define sha1 gawk=71fc3595865ea6ea859587cbbb35cbf9aeb39d2d
 Provides:	/bin/awk

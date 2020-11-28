@@ -6,7 +6,7 @@ License:        GPLv3+
 URL:            http://www.gnu.org/software/gzip
 Group:          Applications/File
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	    http://ftp.gnu.org/gnu/gzip/%{name}-%{version}.tar.xz
 
 %if %{with_check}

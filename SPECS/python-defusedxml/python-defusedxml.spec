@@ -9,7 +9,7 @@ Url:            https://pypi.python.org/pypi/defusedxml
 License:        Python
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://files.pythonhosted.org/packages/a4/5f/f8aa58ca0cf01cbcee728abc9d88bfeb74e95e6cb4334cfd5bed5673ea77/defusedxml-%{version}.tar.gz
 
 BuildArch:      noarch

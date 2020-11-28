@@ -8,7 +8,7 @@ Group:          System Environment/Base
 License:        GPLv3
 URL:            https://launchpad.net/cloud-init
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://launchpad.net/cloud-init/trunk/%{version}/+download/%{name}-%{version}.tar.gz
 Source1:        cloud-mariner.cfg
 Source2:        99-disable-networking-config.cfg

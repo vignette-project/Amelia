@@ -11,7 +11,7 @@ License:        GPL+ and GPLv2+ and MIT and Redistributable, no modification per
 URL:            https://www.kernel.org/
 Group:          System Environment/Kernel
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://git.kernel.org/pub/scm/linux/kernel/git/firmware/%{name}.git/snapshot/%{name}-%{version}.tar.gz
 
 BuildArch:      noarch

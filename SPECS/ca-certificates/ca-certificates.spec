@@ -79,7 +79,7 @@ License:        MPLv2.0
 URL:            https://hg.mozilla.org
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 # Please always update both certdata.txt and nssckbi.h
 Source0:        https://hg.mozilla.org/releases/mozilla-release/raw-file/712412cb974c0392afe31fd9ce974b26ae3993c3/security/nss/lib/ckfw/builtins/certdata.txt
 Source1:        nssckbi.h

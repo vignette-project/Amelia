@@ -7,7 +7,7 @@ URL:            http://www.linux-pam.org/
 Source0:        https://github.com/linux-pam/linux-pam/releases/download/v%{version}/Linux-PAM-%{version}.tar.xz
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  cracklib-devel
 Requires:       cracklib
 %description

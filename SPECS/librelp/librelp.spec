@@ -9,7 +9,7 @@ Source0:        %{name}-%{version}.tar.gz
 %define sha1 librelp=701d69e7723fe614b96750af8cba5ee9a54085fe
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  gnutls-devel
 BuildRequires:  autogen
 Requires:       gnutls

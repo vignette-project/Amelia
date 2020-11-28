@@ -7,7 +7,7 @@ License:        OpenLDAP
 URL:            https://www.openldap.org/
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 # Using Canadian mirror. Original source link didn't work: ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/%{name}-%{version}.tgz
 Source0:        https://gpl.savoirfairelinux.net/pub/mirrors/openldap/openldap-release/%{name}-%{version}.tgz
 

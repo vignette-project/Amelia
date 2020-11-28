@@ -4,7 +4,7 @@ Version:        2.9
 Release:        2%{?dist}
 License:        BSD
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          Applications/Communications
 URL:            https://w1.fi
 Source0:        https://w1.fi/releases/%{name}-%{version}.tar.gz

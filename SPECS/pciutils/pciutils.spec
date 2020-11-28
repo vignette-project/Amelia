@@ -6,7 +6,7 @@ License:	GPLv2
 URL:		https://www.kernel.org/pub/software/utils/pciutils/
 Group:		System Environment/System Utilities
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	https://www.kernel.org/pub/software/utils/pciutils/%{name}-%{version}.tar.gz
 %define sha1 pciutils=8c6da8d8b1bff1b4c847a2ea380cfff9ccfe2566
 %description

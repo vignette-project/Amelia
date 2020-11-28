@@ -8,7 +8,7 @@ URL:            https://hyperrealm.github.io/libconfig/
 Source0:        %{name}-%{version}.tar.gz
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 BuildRequires:  autoconf
 BuildRequires:  texinfo

@@ -17,7 +17,7 @@ Patch6:         CVE-2020-8623.nopatch
 Patch7:         CVE-2020-8624.patch 
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Requires:       openssl
 Requires:       libuv
 Requires(pre):  /usr/sbin/useradd /usr/sbin/groupadd

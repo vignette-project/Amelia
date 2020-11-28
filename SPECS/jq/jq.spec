@@ -12,7 +12,7 @@ Source0:       https://github.com/stedolan/jq/releases/download/jq-1.5/jq-1.5.ta
 Patch0:        CVE-2015-8863.patch
 #https://github.com/wmark/jq/commit/e6f32d647b180006a90e080ab61ce6f09c3134d7
 Patch1:        CVE-2016-4074.patch
-Distribution:   Mariner
+Distribution: Amelia
 %if %{with_check}
 BuildRequires: which
 BuildRequires: oniguruma-devel

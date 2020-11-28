@@ -7,7 +7,7 @@ URL:        https://www.lysator.liu.se/~nisse/nettle/
 Source0: 	https://ftp.gnu.org/gnu/nettle/%{name}-%{version}.tar.gz
 Group: 		Development/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Provides:	libhogweed.so.4()(64bit)
 Provides:	libhogweed.so.4(HOGWEED_4)(64bit)
 Provides:	libnettle.so.6()(64bit)

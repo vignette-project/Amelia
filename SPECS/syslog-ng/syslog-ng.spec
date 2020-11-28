@@ -8,7 +8,7 @@ License:        BSD and GPLv2+ and LGPLv2+
 URL:            https://syslog-ng.org/
 Group:          System Environment/Daemons
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 Source0:        https://github.com/balabit/%{name}/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
 Source1:        60-syslog-ng-journald.conf

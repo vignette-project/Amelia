@@ -3,7 +3,7 @@ Name:           powershell
 Version:        7.0.2
 Release:        1%{?dist}
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 License:        MIT
 Url:            https://microsoft.com/powershell
 Group:          shells

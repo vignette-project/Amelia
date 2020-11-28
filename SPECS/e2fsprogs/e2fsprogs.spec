@@ -6,7 +6,7 @@ License:        GPLv2 and LGPLv2 and BSD and MIT
 URL:            http://e2fsprogs.sourceforge.net
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://prdownloads.sourceforge.net/e2fsprogs/%{name}-%{version}.tar.gz
 Requires:       %{name}-libs = %{version}-%{release}
 Conflicts:      toybox

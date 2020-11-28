@@ -8,7 +8,7 @@ Group:		Applications/Cryptography.
 Source0:        https://gnupg.org/ftp/gcrypt/%{name}/%{name}-%{version}.tar.bz2
 %define sha1 pinentry=693bdf9f48dfb3e040d92f50b1bb464e268b9fb0
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  libassuan
 BuildRequires:  libgpg-error
 BuildRequires:  libgpg-error-devel

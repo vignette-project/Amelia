@@ -6,7 +6,7 @@ License:        GPLv2+
 URL:            https://www.strongswan.org/
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://download.strongswan.org/%{name}-%{version}.tar.bz2
 
 BuildRequires:  autoconf

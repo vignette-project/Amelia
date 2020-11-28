@@ -44,7 +44,7 @@ Summary:      Qt5 - QtBase components
 Version:      5.12.5
 Release:      4%{?dist}
 Vendor:       Microsoft Corporation
-Distribution: Mariner
+Distribution: Amelia
 
 BuildRequires: build-essential
 BuildRequires: systemd

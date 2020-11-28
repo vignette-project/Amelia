@@ -5,7 +5,7 @@ Release:        3%{?dist}
 License:        GPLv2 with exceptions and LGPLv2 and BSD
 Group:          Applications/Databases
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            https://mariadb.org/
 Source0:        https://github.com/MariaDB/server/archive/mariadb-%{version}.tar.gz
 BuildRequires:  cmake

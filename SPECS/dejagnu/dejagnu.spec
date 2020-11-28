@@ -7,7 +7,7 @@ URL:            https://www.gnu.org/software/dejagnu
 Source0:        https://ftp.gnu.org/pub/gnu/dejagnu/%{name}-%{version}.tar.gz
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildArch:      noarch
 Requires:       expect
 BuildRequires:  expect-devel

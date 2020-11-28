@@ -9,7 +9,7 @@ License:        MIT
 Group:          Development/Languages/Python
 Url:            https://github.com/pytest-dev/py
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       https://github.com/pytest-dev/py/archive/%{version}.tar.gz
 Source0:        https://files.pythonhosted.org/packages/4f/38/5f427d1eedae73063ce4da680d2bae72014995f9fdeaa57809df61c968cd/py-%{version}.tar.gz
 

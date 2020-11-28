@@ -8,7 +8,7 @@ License:        PSF
 URL:            http://www.python.org/
 Group:          System Environment/Programming
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://www.python.org/ftp/python/%{version}/Python-%{version}.tar.xz
 Patch0:         cgi.patch
 Patch1:         added-pyopenssl-ipaddress-certificate-validation.patch

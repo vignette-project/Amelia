@@ -21,7 +21,7 @@ Source0:        %{name}-%{version}.tar.gz
 Source1:        contrib-0.7.0.tar.gz
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 BuildRequires:  golang
 BuildRequires:  rsync

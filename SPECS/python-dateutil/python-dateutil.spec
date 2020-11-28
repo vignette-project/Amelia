@@ -9,7 +9,7 @@ Release:        4%{?dist}
 License:        ASL 2.0 and BSD
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            https://pypi.python.org/pypi/python-dateutil
 Source0:        https://files.pythonhosted.org/packages/a0/b0/a4e3241d2dee665fea11baec21389aec6886655cd4db7647ddf96c3fad15/%{name}-%{version}.tar.gz
 

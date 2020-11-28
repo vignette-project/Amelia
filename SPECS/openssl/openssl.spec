@@ -6,7 +6,7 @@ License:        OpenSSL
 URL:            http://www.openssl.org/
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://www.openssl.org/source/%{name}-%{version}.tar.gz
 Patch0:         openssl-1.1.1-no-html.patch
 

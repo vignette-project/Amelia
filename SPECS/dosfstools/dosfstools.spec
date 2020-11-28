@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		http://github.com/dosfstools/dosfstools
 Group:		Filesystem Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	http://github.com/%{name}/%{name}/releases/download/v%{version}/%{name}-%{version}.tar.gz
 %define sha1 dosfstools=db39f667c3cb51bdf321f07f9cf17c726ca50323
 %description

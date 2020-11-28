@@ -6,7 +6,7 @@ License:        BSD
 URL:            https://www.darwinsys.com/file
 Group:          Applications/File
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        ftp://ftp.astron.com/pub/file/%{name}-%{version}.tar.gz
 
 Requires:       %{name}-libs = %{version}-%{release}

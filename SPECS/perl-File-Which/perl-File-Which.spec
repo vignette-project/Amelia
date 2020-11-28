@@ -8,7 +8,7 @@ URL:            http://search.cpan.org/dist/File-Which/
 Source0:        https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/File-Which-%{version}.tar.gz
 %define sha1 File-Which=770ebe5dfa4076abc9923d8c4993d90dd6d2db9a
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildArch:      noarch
 BuildRequires:	perl >= 5.28.0
 Requires:	perl >= 5.28.0

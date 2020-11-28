@@ -7,7 +7,7 @@ URL:            https://people.redhat.com/~dhowells/keyutils/
 Source0:        https://people.redhat.com/~dhowells/keyutils/keyutils-%{version}.tar.bz2
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 %description
 Utilities to control the kernel key management facility and to provide

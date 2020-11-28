@@ -6,7 +6,7 @@ License:        Apache License
 Group:          System Environment/Base
 URL:            https://aka.ms/mariner
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        MICROSOFT-RPM-GPG-KEY
 Source1:        MICROSOFT-METADATA-GPG-KEY
 Source2:        mariner-official-base.repo

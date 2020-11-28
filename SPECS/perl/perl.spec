@@ -14,7 +14,7 @@ License:        GPL+ or Artistic
 URL:            https://www.perl.org/
 Group:          Development/Languages
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://www.cpan.org/src/5.0/%{name}-%{version}.tar.gz
 Provides:       perl >= 0:5.003000
 Provides:       perl(getopts.pl)

@@ -6,7 +6,7 @@ License:        GPL+
 URL:            http://fuse.sourceforge.net/
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://github.com/libfuse/libfuse/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
 %define sha1 fuse=cd174e3d37995a42fad32fac92f76cd18e24174f
 Patch0:         fuse-types.patch

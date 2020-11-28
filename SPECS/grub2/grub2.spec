@@ -6,7 +6,7 @@ Version:        2.02
 Release:        25%{?dist}
 License:        GPLv3+
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          Applications/System
 URL:            https://www.gnu.org/software/grub
 Source0:        ftp://ftp.gnu.org/gnu/grub/grub-2.02.tar.xz

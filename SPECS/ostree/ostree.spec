@@ -6,7 +6,7 @@ License:        LGPLv2+
 URL:            https://ostree.readthedocs.io/en/latest
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 # Manually created Source tar which is equal to
 # Source0 + .git as it requires git hooks at build time
 #Source0:       https://github.com/ostreedev/ostree/releases/download/v2019.2/libostree-2019.2.tar.xz

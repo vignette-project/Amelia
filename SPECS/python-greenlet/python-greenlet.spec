@@ -8,7 +8,7 @@ Release:        5%{?dist}
 License:        MIT or Python
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 URL:            https://pypi.python.org/pypi/greenlet
 # Source0:      https://files.pythonhosted.org/packages/f8/e8/b30ae23b45f69aa3f024b46064c0ac8e5fcb4f22ace0dca8d6f9c8bbe5e7/greenlet-%{version}.tar.gz
 Source0:        greenlet-%{version}.tar.gz

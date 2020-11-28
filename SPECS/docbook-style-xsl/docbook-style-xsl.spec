@@ -7,7 +7,7 @@ URL:		http://www.docbook.org
 Source0:	http://downloads.sourceforge.net/docbook/docbook-xsl-%{version}.tar.bz2
 Group:		Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Requires:	libxml2
 BuildRequires:	libxml2
 BuildRequires:  zip

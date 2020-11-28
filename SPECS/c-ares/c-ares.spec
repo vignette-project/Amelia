@@ -5,7 +5,7 @@ Release:        3%{?dist}
 License:        MIT
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 URL:            http://c-ares.haxx.se/
 Source0:        http://c-ares.haxx.se/download/%{name}-%{version}.tar.gz
 %define sha1    c-ares=5b4989208c936d6445d4d73487634fe0b07e8ea7

@@ -6,7 +6,7 @@ URL:            https://facebook.github.io/zstd/
 License:        BSD and GPLv2
 Group:          Applications/File
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://github.com/facebook/zstd/releases/download/v%{version}/%{name}-%{version}.tar.gz
 
 Requires:       zstd-libs = %{version}-%{release}

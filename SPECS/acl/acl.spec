@@ -7,7 +7,7 @@ License:        GPLv2+
 Group:          System Environment/Base
 URL:            https://savannah.nongnu.org/projects/acl/
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Requires:       libacl = %{version}-%{release}
 BuildRequires:  attr-devel
 

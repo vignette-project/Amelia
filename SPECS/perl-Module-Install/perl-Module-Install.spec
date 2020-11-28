@@ -12,7 +12,7 @@ URL:            http://search.cpan.org/dist/Module-Install/
 Source0:        https://cpan.metacpan.org/authors/id/E/ET/ETHER/Module-Install-%{version}.tar.gz
 %define sha1 Module-Install=6c77b2ec0cd84e07d7c7ae03d1cfa5c21d758f81
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildArch:      noarch
 BuildRequires:  perl >= 5.28.0
 BuildRequires:  perl-YAML-Tiny

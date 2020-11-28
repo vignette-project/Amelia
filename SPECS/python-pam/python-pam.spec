@@ -9,7 +9,7 @@ Url:            https://pypi.python.org/pypi/python-pam/
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://pypi.python.org/packages/source/p/python-pam/%{name}-%{version}.tar.gz
 
 BuildArch:      noarch

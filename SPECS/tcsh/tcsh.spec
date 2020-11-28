@@ -5,7 +5,7 @@ Version:        6.20.00
 Release:        9%{?dist}
 License:        BSD
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          System Environment/Shells
 URL:            https://www.tcsh.org/
 Source0:        https://astron.com/pub/%{name}/old/%{name}-%{version}.tar.gz

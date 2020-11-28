@@ -7,7 +7,7 @@ Release:        2%{?dist}
 License:        GPLv2+ and LGPLv2+
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 URL:            https://gitlab.com/cryptsetup/cryptsetup
 Source0:        https://www.kernel.org/pub/linux/utils/cryptsetup/v%{urlversion}/%{name}-%{version}.tar.xz
 Patch0:         cryptsetup-add-system-library-paths.patch

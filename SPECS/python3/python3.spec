@@ -5,7 +5,7 @@ Version:        3.7.9
 Release:        3%{?dist}
 License:        PSF
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          System Environment/Programming
 URL:            https://www.python.org/
 Source0:        https://www.python.org/ftp/python/%{version}/Python-%{version}.tar.xz

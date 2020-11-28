@@ -9,7 +9,7 @@ Release:        2%{?dist}
 License:        ASL 2.0
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            http://msgpack.org/
 #Source0:        https://github.com/msgpack/msgpack-python/archive/v0.6.2.tar.gz
 Source0:        https://github.com/msgpack/msgpack-python/archive/%{name}-%{version}.tar.gz

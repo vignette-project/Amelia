@@ -23,7 +23,7 @@ Source5:        https://github.com/golang/crypto/archive/golang-crypto-eb71ad9bd
 %define sha1 golang-crypto=775ab62e664ee2c89f624d5be6c55775360653ee
 Group:          Virtualization/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  curl
 BuildRequires:  gawk
 BuildRequires:  golang

@@ -16,7 +16,7 @@ BuildRequires:  pkg-config
 BuildRequires:  systemd-devel
 BuildRequires:  which
 Requires:       systemd
-Distribution:   Mariner
+Distribution: Amelia
 
 %description
 This is libgudev, a library providing GObject bindings for libudev. It

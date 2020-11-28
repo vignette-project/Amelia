@@ -8,7 +8,7 @@ Group:		Development/Languages
 Source0:	http://www.jedsoft.org/releases/%{name}/%{name}-%{version}.tar.bz2
 %define sha1 slang=bbf7f2dcc14e7c7fca40868fd4b411a2bd9e2655
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:	readline-devel
 
 %description

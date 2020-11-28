@@ -6,7 +6,7 @@ URL:            https://www.zeromq.org
 License:        LGPLv3+
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://github.com/zeromq/libzmq/archive/v%{version}/libzmq-%{version}.tar.gz
 Requires:       libstdc++
 

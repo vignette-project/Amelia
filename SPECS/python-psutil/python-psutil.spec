@@ -10,7 +10,7 @@ Url:            https://pypi.python.org/pypi/psutil
 License:        BSD
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:        https://github.com/giampaolo/psutil/archive/release-%{version}.tar.gz
 Source0:        https://github.com/giampaolo/psutil/archive/%{name}-%{version}.tar.gz
 Patch0:         disable-tests-python-psutil.patch

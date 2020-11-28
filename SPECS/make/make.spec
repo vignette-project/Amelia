@@ -6,7 +6,7 @@ License:        GPLv3+
 URL:            http://www.gnu.org/software/make
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://ftp.gnu.org/gnu/make/%{name}-%{version}.tar.bz2
 
 %description

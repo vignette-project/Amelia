@@ -12,7 +12,7 @@ Patch2:         apparmor-fix-make-check.patch
 # CVE-2016-1585 has no upstream fix as of 2020/09/28
 Patch100:       CVE-2016-1585.nopatch
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          Productivity/Security
 BuildRequires:  python3
 BuildRequires:  perl

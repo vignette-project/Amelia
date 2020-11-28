@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		http://www.mpfr.org
 Group:		Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	http://www.mpfr.org/%{name}-%{version}/%{name}-%{version}.tar.gz
 %define sha1 mpfr=655e3cf416a0cc9530d9cb3c38dc8839504f0e98
 Requires:	gmp

@@ -6,7 +6,7 @@ URL:            http://www.zlib.net/
 License:        zlib
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://www.zlib.net/%{name}-%{version}.tar.xz
 %define sha1    zlib=e1cb0d5c92da8e9a8c2635dfa249c341dfd00322
 %description

@@ -8,7 +8,7 @@ Source0:	http://sg.danny.cz/scsi/%{name}-%{version}.tar.xz
 %define sha1 lsscsi=2aa4e0ea2551ed6909c531156978cb110d701f38
 Group:		Hardware/Others.
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 %description
 This lists the information about SCSI devices.

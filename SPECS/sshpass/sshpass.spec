@@ -8,7 +8,7 @@ Source0:	http://downloads.sourceforge.net/project/sshpass/%{name}/%{version}/%{n
 %define sha1 sshpass=633652e2160819ac7c7e1a351327027d2faa4fd6
 Group:		Applications/Networking
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Requires:       openssh
 
 %description

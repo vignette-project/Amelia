@@ -6,7 +6,7 @@ Version:        5.4.72
 Release:        3%{?dist}
 License:        GPLv2
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          System Environment/Kernel
 URL:            https://github.com/microsoft/WSL2-Linux-Kernel
 # This package's "version" and "release" must reflect the unsigned version that

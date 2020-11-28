@@ -22,7 +22,7 @@ Source7:        LICENSE
 
 Group:          Virtualization/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 BuildRequires:  curl
 BuildRequires:  gawk

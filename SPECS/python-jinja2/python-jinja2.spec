@@ -10,7 +10,7 @@ Summary:        A fast and easy to use template engine written in pure Python
 License:        BSD
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://files.pythonhosted.org/packages/93/ea/d884a06f8c7f9b7afbc8138b762e80479fb17aedbbe2b06515a12de9378d/Jinja2-%{version}.tar.gz
 BuildRequires:  python2
 BuildRequires:  python2-libs

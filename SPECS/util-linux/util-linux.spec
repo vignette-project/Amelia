@@ -6,7 +6,7 @@ URL:            https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/a
 License:        GPLv2+
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://mirrors.edge.kernel.org/pub/linux/utils/%{name}/v2.32/%{name}-%{version}.tar.xz
 BuildRequires:  ncurses-devel
 %if %{with_check}

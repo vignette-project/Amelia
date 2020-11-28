@@ -9,7 +9,7 @@ URL:            https://github.com/certifi
 License:        MPL-2.0
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://github.com/certifi/python-certifi/archive/certifi-%{version}.tar.gz
 #Source0:        https://github.com/certifi/python-certifi/archive/%{version}.tar.gz
 

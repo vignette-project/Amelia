@@ -4,7 +4,7 @@ Version:        0.41
 Release:        23%{?dist}
 License:        LGPLv2+
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 URL:            https://libcg.sourceforge.net/
 Source0:        https://downloads.sourceforge.net/libcg/%{name}-%{version}.tar.bz2
 Source1:        cgconfig.service

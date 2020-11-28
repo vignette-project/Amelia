@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            https://www.keepalived.org/
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Note.          We currently use alternate source location.  Preferred original is here:  https://www.keepalived.org/software/keepalived-%{version}.tar.gz
 #Source0:       https://github.com/acassen/keepalived/archive/v%{version}.zip
 Source0:        %{name}-%{version}.zip

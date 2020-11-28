@@ -5,7 +5,7 @@ Release:        5%{?dist}
 License:        MIT
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            https://www.aleksey.com/xmlsec/
 Source0:        %{url}/download/older-releases/%{name}-%{version}.tar.gz
 

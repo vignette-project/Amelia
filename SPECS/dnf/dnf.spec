@@ -11,7 +11,7 @@ URL:            https://github.com/rpm-software-management/dnf
 #Source0:       %{url}/archive/%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildArch:      noarch
 
 BuildRequires:  cmake

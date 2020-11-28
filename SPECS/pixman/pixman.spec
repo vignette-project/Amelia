@@ -7,7 +7,7 @@ URL:        https://cgit.freedesktop.org/pixman/
 Source0:    https://xorg.freedesktop.org/archive/individual/lib/%{name}-%{version}.tar.bz2
 Group:		System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:	libtool
 
 %description

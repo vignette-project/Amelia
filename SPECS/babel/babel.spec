@@ -9,7 +9,7 @@ License:        BSD
 Group:          Development/Languages/Python
 Url:            https://babel.pocoo.org
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://files.pythonhosted.org/packages/be/cc/9c981b249a455fa0c76338966325fc70b7265521bad641bf2932f77712f4/Babel-%{version}.tar.gz
 
 BuildRequires:  python2

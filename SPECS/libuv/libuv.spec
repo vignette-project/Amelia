@@ -7,7 +7,7 @@ URL:            https://libuv.org/
 Source0:        https://dist.libuv.org/dist/v%{version}/%{name}-v%{version}.tar.gz
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  coreutils
 BuildRequires:  build-essential
 

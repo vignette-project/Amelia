@@ -8,7 +8,7 @@ Release:        4%{?dist}
 License:        ASL 2.0
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            http://python-requests.org
 Source0:        http://github.com/requests/requests/archive/v%{version}/requests-v%{version}.tar.gz
 

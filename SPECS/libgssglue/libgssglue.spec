@@ -6,7 +6,7 @@ License:        BSD
 URL:            http://www.citi.umich.edu/projects/nfsv4/linux/
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://www.citi.umich.edu/projects/nfsv4/linux/libgssglue/%{name}-%{version}.tar.gz
 %define sha1    libgssglue=a8edc4f6a1d4dcd80ad52d18226fc65fa8850af1
 

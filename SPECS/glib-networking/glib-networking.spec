@@ -6,7 +6,7 @@ License:        GPLv2+ with exceptions
 URL:            https://gitlab.gnome.org/GNOME/glib-networking/
 Group:          System Environment/Development
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://ftp.gnome.org/pub/GNOME/sources/glib-networking/2.59/%{name}-%{version}.tar.xz
 
 Patch0:         CVE-2020-13645.patch

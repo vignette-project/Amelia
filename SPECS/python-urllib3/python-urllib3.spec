@@ -9,7 +9,7 @@ Url:            https://pypi.python.org/pypi/urllib3
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://github.com/shazow/urllib3/archive/%{version}/urllib3-%{version}.tar.gz
 
 BuildRequires:  python2

@@ -9,7 +9,7 @@ Url:            https://github.com/JuliaStrings/utf8proc
 Source0:        %{name}-%{version}.tar.gz
 %define sha1 %{name}-%{version}=476efd08dbff38c63f01bb9176905edb09384e63
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  cmake
 
 %description

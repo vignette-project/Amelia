@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            https://github.com/Irqbalance/irqbalance
 Group:          System Environment/Services
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       https://github.com/Irqbalance/%{name}/archive/v%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 

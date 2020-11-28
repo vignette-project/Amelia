@@ -6,7 +6,7 @@ License:        ASL 2.0
 URL:            http://xerces.apache.org
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://archive.apache.org/dist/xerces/c/3/sources/%{name}-%{version}.tar.gz
 
 Requires:       libstdc++

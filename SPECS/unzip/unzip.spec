@@ -7,7 +7,7 @@ URL:            http://infozip.sourceforge.net/UnZip.html
 Source0:        https://downloads.sourceforge.net/infozip/unzip60.tar.gz
 Group:          System Environment/Utilities
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 Patch0:         CVE-2014-9636.patch
 Patch1:         CVE-2015-1315.patch

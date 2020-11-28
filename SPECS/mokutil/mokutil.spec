@@ -5,7 +5,7 @@ Summary:        Tool to manage UEFI Secure Boot MoK Keys
 License:        GPLv3+
 URL:            https://github.com/lcp/mokutil
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       https://github.com/lcp/mokutil/archive/%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 

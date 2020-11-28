@@ -11,7 +11,7 @@ Group:		System Environment/Libraries
 Vendor:         Microsoft Corporation
 BuildRequires:	libgpg-error-devel
 Requires:	libgpg-error
-Distribution:   Mariner
+Distribution: Amelia
 %description
 The libgcrypt package contains a general purpose crypto library based on the code used in GnuPG. The library provides a high level interface to cryptographic building blocks using an extendable and flexible API.
 

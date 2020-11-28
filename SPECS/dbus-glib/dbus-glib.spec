@@ -7,7 +7,7 @@ Group: 		System Environment/Libraries
 Source0:	http://dbus.freedesktop.org/releases/dbus-glib/%{name}-%{version}.tar.gz
 %define sha1 dbus-glib=998b7c762c8f18c906f19fc393bb8712eabe8c97
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:	glib-devel
 BuildRequires:	dbus-devel
 Requires:	glib

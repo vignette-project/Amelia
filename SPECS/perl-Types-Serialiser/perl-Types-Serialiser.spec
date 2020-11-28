@@ -9,7 +9,7 @@ URL:		http://search.cpan.org/dist/Types-Serialiser/
 Source0:	http://search.cpan.org/CPAN/authors/id/M/ML/MLEHMANN/Types-Serialiser-%{version}.tar.gz
 %define sha1 Types-Serialiser=72ba9d1d97bb582360c79bcbdb158e73573adb70
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildArch:	noarch
 BuildRequires:	perl >= 5.28.0
 Requires:	perl >= 5.28.0

@@ -6,7 +6,7 @@ License:	GPLv2
 URL:		http://git.kernel.org/cgit/linux/kernel/git/axboe/blktrace.git/tree/README
 Group:		Development/Tools/Other
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	https://git.kernel.org/pub/scm/linux/kernel/git/axboe/blktrace.git/snapshot/%{name}-%{version}.tar.gz
 %define sha1 blktrace=22a258ea65c6e826596b8e5a51e9c3f8bf758752
 Patch0:         blktrace-fix-CVE-2018-10689.patch

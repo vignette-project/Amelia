@@ -6,7 +6,7 @@ License:	MIT
 URL:		http://rpm5.org/files/popt
 Group:		Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	ftp://anduin.linuxfromscratch.org/BLFS/svn/p/%{name}-%{version}.tar.gz
 %define sha1 popt=cfe94a15a2404db85858a81ff8de27c8ff3e235e
 %description

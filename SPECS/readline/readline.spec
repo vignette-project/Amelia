@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
 Group:		Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	http://ftp.gnu.org/gnu/readline/%{name}-%{version}.tar.gz
 %define sha1 readline=d9095fa14a812495052357e1d678b3f2ac635463
 BuildRequires:	ncurses-devel

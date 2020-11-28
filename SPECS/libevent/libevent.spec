@@ -8,7 +8,7 @@ Source0:	https://github.com/%{name}/%{name}/releases/download/release-%{version}
 %define sha1 libevent=2a1b8bb7a262d3fd0ed6a080a20991a6eed675ec
 Group:		System/Library
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  pkg-config
 BuildRequires:  openssl-devel
 Requires:       openssl

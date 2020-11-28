@@ -3,7 +3,7 @@ Summary:      Additional modules for CMake build system
 Version:      5.61.0
 Release:      3%{?dist}
 Vendor:       Microsoft Corporation
-Distribution: Mariner
+Distribution: Amelia
 License:      BSD
 URL:          https://github.com/KDE/extra-cmake-modules
 

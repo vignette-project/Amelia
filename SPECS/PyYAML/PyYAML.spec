@@ -8,7 +8,7 @@ Summary:        YAML parser and emitter for Python
 Group:          Development/Libraries
 License:        MIT
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 URL:            http://pyyaml.org/
 Source0:        http://pyyaml.org/download/pyyaml/%{name}-%{version}.tar.gz
 %define sha1 PyYAML=22f95fe2f5ef29ab17110f92c7186e2cfde6b419

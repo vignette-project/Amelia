@@ -6,7 +6,7 @@ License:        MIT
 Group:          Applications/File
 URL:            https://github.com/Microsoft/GSL
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       https://github.com/microsoft/%{name}/archive/v%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  cmake

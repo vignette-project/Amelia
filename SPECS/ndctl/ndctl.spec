@@ -9,7 +9,7 @@ Url:            https://github.com/pmem/ndctl
 Source0:        https://github.com/pmem/%{name}/archive/ndctl-%{version}.tar.gz
 #Source0:        https://github.com/pmem/%{name}/archive/v%{version}.tar.gz
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 BuildRequires:  asciidoc
 BuildRequires:  which

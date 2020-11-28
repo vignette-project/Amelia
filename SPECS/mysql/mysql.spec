@@ -4,7 +4,7 @@ Version:        8.0.22
 Release:        2%{?dist}
 License:        GPLv2 with exceptions AND LGPLv2 AND BSD
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          Applications/Databases
 URL:            https://www.mysql.com
 Source0:        https://cdn.mysql.com/Downloads/MySQL-8.0/%{name}-boost-%{version}.tar.gz

@@ -17,7 +17,7 @@ Patch1:         disable-xattr.patch
 Patch2:         fix-initrd-naming-for-mariner.patch
 Summary:        dracut to create initramfs
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  bash git
 BuildRequires:  pkg-config
 BuildRequires:  kmod-devel

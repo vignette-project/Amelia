@@ -5,7 +5,7 @@ Summary:        A YAML parser and emitter for C++
 License:        MIT
 URL:            https://github.com/jbeder/yaml-cpp
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 Source0:        https://github.com/jbeder/yaml-cpp/archive/%{name}-%{version}.tar.gz
 

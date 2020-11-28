@@ -6,7 +6,7 @@ Name:           libedit
 Version:        3.1.20180525
 Release:        5%{?dist}
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://www.thrysoee.dk/editline/libedit-%{libedit_release}-%{libedit_version}.tar.gz
 License:        BSD
 Url:            https://www.thrysoee.dk/editline/

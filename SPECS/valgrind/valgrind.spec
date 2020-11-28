@@ -9,7 +9,7 @@ Group:          Development/Debuggers
 Source0:        https://sourceware.org/pub/%{name}/%{name}-%{version}.tar.bz2
 
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  pkg-config
 
 %description

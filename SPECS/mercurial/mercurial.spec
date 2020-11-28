@@ -8,7 +8,7 @@ License:        GPLv2+
 URL:            https://www.mercurial-scm.org
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://www.mercurial-scm.org/release/%{name}-%{version}.tar.gz
 BuildRequires:  python2
 BuildRequires:  python2-libs

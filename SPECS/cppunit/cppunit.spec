@@ -8,7 +8,7 @@ Source0:	https://sourceforge.net/projects/cppunit/files/%{name}/%{version}/%{nam
 %define sha1 cppunit=f1ab8986af7a1ffa6760f4bacf5622924639bf4a
 Group:		Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  make

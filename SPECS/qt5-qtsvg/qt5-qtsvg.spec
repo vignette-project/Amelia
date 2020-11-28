@@ -3,7 +3,7 @@ Name:         qt5-qtsvg
 Version:      5.12.5
 Release:      3%{?dist}
 Vendor:       Microsoft Corporation
-Distribution: Mariner
+Distribution: Amelia
 
 # See LGPL_EXCEPTIONS.txt, LICENSE.GPL3, respectively, for exception details
 License: LGPLv2 with exceptions or GPLv3 with exceptions

@@ -7,7 +7,7 @@ Version:        1.10.9
 Release:        2%{?dist}
 License:        ASL 2.0 AND BSD AND W3C
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          Applications/System
 URL:            https://ant.apache.org
 Source0:        https://archive.apache.org/dist/ant/source/apache-%{name}-%{version}-src.tar.gz

@@ -6,7 +6,7 @@ License:        GPLv3+
 URL:            http://www.gnu.org/software/groff
 Group:          Applications/Text
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://ftp.gnu.org/gnu/groff/%{name}-%{version}.tar.gz
 # No patch has been made available for CVE-2000-0803
 Patch0:         CVE-2000-0803.nopatch

@@ -5,7 +5,7 @@ Release:        6%{?dist}
 License:        GPLv2+
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       https://github.com/rpm-software-management/%{name}/archive/%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 URL:            https://github.com/rpm-software-management/createrepo_c

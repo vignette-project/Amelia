@@ -9,7 +9,7 @@ Url:            https://github.com/pyparsing/pyparsing
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       https://github.com/pyparsing/pyparsing/archive/pyparsing_%{version}.tar.gz
 Source0:        pyparsing-%{version}.tar.gz
 

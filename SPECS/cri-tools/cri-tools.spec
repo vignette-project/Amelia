@@ -10,7 +10,7 @@ URL:            https://github.com/kubernetes-sigs/cri-tools
 Source0:        %{name}-%{version}.tar.gz
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 BuildRequires:  golang
 

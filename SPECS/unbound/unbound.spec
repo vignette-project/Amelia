@@ -5,7 +5,7 @@ Release:        3%{?dist}
 Group:          System/Servers
 Vendor:         Microsoft Corporation
 License:        BSD
-Distribution:   Mariner
+Distribution: Amelia
 URL:            https://nlnetlabs.nl/projects/unbound/about/
 #Source0:       https://github.com/NLnetLabs/%{name}/archive/release-%{version}.tar.gz
 Source0:        %{name}-release-%{version}.tar.gz

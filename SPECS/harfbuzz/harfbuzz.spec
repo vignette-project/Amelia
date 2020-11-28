@@ -6,7 +6,7 @@ License:	MIT
 URL:		http://harfbuzz.org
 Group:		System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	    https://www.freedesktop.org/software/harfbuzz/release/%{name}-%{version}.tar.bz2
 BuildRequires:	glib-devel
 BuildRequires:	freetype

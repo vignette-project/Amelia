@@ -8,7 +8,7 @@ Source0:	http://ftp.gnu.org/gnu/libunistring/%{name}-%{version}.tar.xz
 %define sha1 libunistring=16dc423d3ebd23f365b0ffe7d584428b427f4bde
 Group:		System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 %description
 libunistring is a library that provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.
 

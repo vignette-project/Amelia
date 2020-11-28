@@ -8,7 +8,7 @@ Source:         http://www.libndp.org/files/%{name}-%{version}.tar.gz
 %define sha1 libndp=1458d2a70c6bc4cdcbf525e02582060e799778bc
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 %description
 This package contains a library which provides a wrapper

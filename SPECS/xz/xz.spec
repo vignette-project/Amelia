@@ -6,7 +6,7 @@ URL:            http://tukaani.org/xz
 License:        GPLv2+ and GPLv3+ and LGPLv2+
 Group:          Applications/File
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://tukaani.org/xz/%{name}-%{version}.tar.xz
 %define sha1    xz=1d3a6910c28d40df0134f4a49e5570e8249120c5
 Requires:       xz-libs = %{version}-%{release}

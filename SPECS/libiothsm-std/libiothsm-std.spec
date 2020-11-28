@@ -19,7 +19,7 @@ License:        MIT
 Group:          Applications/Libraries
 URL:            https://github.com/azure/iotedge
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  cmake
 BuildRequires:  curl-devel
 BuildRequires:  readline-devel

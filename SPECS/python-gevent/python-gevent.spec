@@ -8,7 +8,7 @@ Release:        5%{?dist}
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            http://www.gevent.org
 #Source0:       https://github.com/gevent/gevent/archive/%{version}.tar.gz
 Source0:        gevent-%{version}.tar.gz

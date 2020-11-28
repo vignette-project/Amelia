@@ -7,7 +7,7 @@ URL:            https://pagure.io/mlocate
 Source0:        http://releases.pagure.org/mlocate/%{name}-%{version}.tar.xz
 %define sha1    %{name}=c6e6d81b25359c51c545f4b8ba0f3b469227fcbc
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          Applications/File
 BuildRequires:  sed
 BuildRequires:  grep

@@ -6,7 +6,7 @@ License:        BSD 3-Clause
 URL:            https://github.com/tpm2-software/tpm2-tools
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://github.com/tpm2-software/tpm2-tools/releases/download/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  openssl-devel
 BuildRequires:  curl-devel

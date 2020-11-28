@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		http://www.gnu.org/software/bison
 Group:		System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	http://ftp.gnu.org/gnu/bison/%{name}-%{version}.tar.xz
 %define sha1 bison=84e5b016fa76f6cd4246131b1ca11a0f926e7922
 BuildRequires:	m4

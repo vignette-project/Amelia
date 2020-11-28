@@ -8,7 +8,7 @@ License:        LGPLv2+
 Group:          System Environment/Libraries
 URL:            https://github.com/thkukuk/rpcsvc-proto
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 %description
 The rpcsvc-proto package contains the rcpsvc protocol.x files and headers,

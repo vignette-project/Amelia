@@ -8,7 +8,7 @@ Release:        2%{?dist}
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            https://github.com/python-hyper/hyperlink
 Source0:        https://github.com/python-hyper/hyperlink/archive/%{name}-%{version}.tar.gz
 #Source0:        https://github.com/python-hyper/hyperlink/archive/v%{version}.tar.gz

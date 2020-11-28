@@ -8,7 +8,7 @@ URL:            https://github.com/nodejs/http-parser
 Source0:        %{name}-%{version}.tar.gz
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  gcc
 
 %description

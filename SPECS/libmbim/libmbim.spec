@@ -7,7 +7,7 @@ Source0:        https://www.freedesktop.org/software/%{name}/%{name}-%{version}.
 License:        GPLv2
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  libgudev-devel
 Requires:       libgudev
 %description

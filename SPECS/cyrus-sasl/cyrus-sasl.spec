@@ -6,7 +6,7 @@ License:        Custom
 URL:            https://www.cyrusimap.org/sasl/
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://github.com/cyrusimap/%{name}/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
 Patch0:         CVE-2019-19906.patch
 

@@ -8,7 +8,7 @@ Source0:        http://files.itstool.org/itstool/%{name}-%{version}.tar.bz2
 
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  docbook-dtd-xml >= 4.5
 BuildRequires:  libxml2
 BuildRequires:  libxml2-python

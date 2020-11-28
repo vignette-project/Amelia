@@ -6,7 +6,7 @@ License:        MIT
 URL:            https://invisible-island.net/ncurses/
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        ftp://ftp.invisible-island.net/%{name}/%{name}-%{version}.tar.gz
 
 Requires:       ncurses-libs = %{version}-%{release}

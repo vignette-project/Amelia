@@ -8,7 +8,7 @@ URL:            https://libcheck.github.io/check/
 Source0:        %{name}-%{version}.tar.gz
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 %description
 Check is a unit testing framework for C. It features a simple interface for defining unit tests,

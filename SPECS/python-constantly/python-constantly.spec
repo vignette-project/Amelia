@@ -9,7 +9,7 @@ Url:            https://github.com/twisted/constantly
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 # Source to be fixed as part of https://microsoft.visualstudio.com/OS/_workitems/edit/25936171.
 Source0:        https://files.pythonhosted.org/packages/95/f1/207a0a478c4bb34b1b49d5915e2db574cadc415c9ac3a7ef17e29b2e8951/constantly-%{version}.tar.gz
 

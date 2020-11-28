@@ -5,7 +5,7 @@ Release:        6%{?dist}
 License:        LGPLv2+
 URL:            https://github.com/projectatomic/rpm-ostree
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://github.com/projectatomic/rpm-ostree/releases/download/v%{version}/rpm-ostree-%{version}.tar.xz
 %define sha1    rpm-ostree=982c3b335debe04763c0b0b8769f7e43229beebc
 Source1:        libglnx-470af87.tar.gz

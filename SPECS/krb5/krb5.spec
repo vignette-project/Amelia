@@ -6,7 +6,7 @@ License:        MIT
 URL:            https://web.mit.edu/kerberos/
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://web.mit.edu/kerberos/dist/%{name}/%{version}/%{name}-%{version}.tar.gz
 Requires:       openssl
 Requires:       e2fsprogs-libs

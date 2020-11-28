@@ -6,7 +6,7 @@ License:        LGPLv2+
 URL:            http://sourceforge.net/projects/libusb/
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source:         http://downloads.sourceforge.net/libusb/libusb-%{version}.tar.bz2
 %define sha1 libusb=10116aa265aac4273a0c894faa089370262ec0dc
 BuildRequires:  systemd-devel

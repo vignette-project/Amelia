@@ -11,7 +11,7 @@ Source1:        rpcbind.service
 Source2:        rpcbind.socket
 Source3:        rpcbind.sysconfig
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  libtirpc-devel
 BuildRequires:  systemd-devel
 Requires:       libtirpc

@@ -8,7 +8,7 @@ Source0:	http://ftp.gnu.org/gnu/gperf/%{name}-%{version}.tar.gz
 %define sha1 gperf=e3c0618c2d2e5586eda9498c867d5e4858a3b0e2
 Group:		Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 %description
 Gperf generates a perfect hash function from a key set.

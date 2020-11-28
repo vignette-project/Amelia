@@ -6,7 +6,7 @@ License:     MIT
 Group:       Development/Libraries
 URL:         http://pyyaml.org/wiki/LibYAML
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:     http://pyyaml.org/download/libyaml/yaml-%{version}.tar.gz
 %define      sha1 yaml=125a3113681f06320dcdfde48bab47cba9031263
 

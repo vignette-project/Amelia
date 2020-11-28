@@ -6,7 +6,7 @@ Release:        3%{?dist}
 URL:            https://github.com/rhboot/shim
 License:        BSD
 Vendor:         Microsoft
-Distribution:   Mariner
+Distribution: Amelia
 
 %ifarch x86_64
 BuildRequires:  shim-unsigned-x64

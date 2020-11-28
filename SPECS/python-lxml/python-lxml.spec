@@ -12,7 +12,7 @@ URL:            https://lxml.de
 Source0:        lxml-%{version}.tar.gz
 Patch0:         lxml-make-check-fix.patch
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  python2-devel
 BuildRequires:  python2-libs
 BuildRequires:  python-xml

@@ -7,7 +7,7 @@ License:        zlib
 URL:            http://www.libpng.org/
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://downloads.sourceforge.net/libpng/%{name}-%{version}.tar.xz
 Provides:       pkgconfig(libpng)
 Provides:       pkgconfig(libpng16)

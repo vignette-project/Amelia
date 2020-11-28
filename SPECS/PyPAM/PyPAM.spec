@@ -9,7 +9,7 @@ Release:        8%{?dist}
 License:        LGPLv2
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 # Note that the upstream URL is dead. Project seems to have been abandoned by authors.
 Url:            http://www.pangalactic.org/PyPAM
 Source0:        https://src.fedoraproject.org/repo/pkgs/%{name}/%{name}-%{version}.tar.gz/f1e7c2c56421dda28a75ace59a3c8871/%{name}-%{version}.tar.gz

@@ -9,7 +9,7 @@ Source0:        https://cpan.metacpan.org/authors/id/R/RS/RSCHUPP/Module-ScanDep
 %define sha1 Module-ScanDeps=df8ea0364f1efeb63fd604790c79c5a755793a75
 URL:            http://search.cpan.org/dist/Module-ScanDeps/
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildArch:      noarch
 BuildRequires:  perl >= 5.28.0
 Requires:	perl >= 5.28.0

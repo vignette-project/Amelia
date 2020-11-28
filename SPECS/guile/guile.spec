@@ -7,7 +7,7 @@ URL:		https://www.gnu.org/software/guile/
 Source0: 	ftp://ftp.gnu.org/pub/gnu/guile/%{name}-%{version}.tar.gz
 Group: 		Development/Languages
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:	libltdl-devel
 BuildRequires:	libunistring-devel
 BuildRequires:	gc-devel

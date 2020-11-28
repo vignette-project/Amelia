@@ -6,7 +6,7 @@ Version:        4.02
 Release:        5%{?dist}
 License:        GPL+ OR Artistic
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 URL:            https://metacpan.org/release/JSON
 #Source0:       https://cpan.metacpan.org/modules/by-module/JSON/JSON-%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz

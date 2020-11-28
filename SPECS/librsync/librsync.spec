@@ -6,7 +6,7 @@ URL:            https://librsync.github.io/
 License:        LGPLv2+ and CC0
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       https://github.com/librsync/librsync/archive/v%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 

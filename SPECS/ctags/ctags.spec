@@ -9,7 +9,7 @@ Source:         http://prdownloads.sourceforge.net/ctags/ctags-%{version}.tar.gz
 Group:          Development/Tools
 Buildroot:      %{_tmppath}/%{name}-%{version}-root
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 Patch0:         ctags-fix-format-security.patch
 

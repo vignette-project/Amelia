@@ -8,7 +8,7 @@ URL:            http://search.cpan.org/~ether/JSON-Any-1.39/lib/JSON/Any.pm
 Source:         http://search.cpan.org/CPAN/authors/id/E/ET/ETHER/JSON-Any-%{version}.tar.gz
 %define sha1 JSON-Any=2c7e404fc4a398359693d62e9c74994f9273dd4c
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildArch:      noarch
 Requires:       perl >= 5.28.0
 BuildRequires:  perl >= 5.28.0

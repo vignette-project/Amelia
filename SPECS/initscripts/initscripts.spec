@@ -10,7 +10,7 @@ Source0:        %{name}-%{version}.tar.gz
 Patch0:         service.patch
 Patch1:         fix_return_code_during_set_error.patch
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Requires:       systemd
 Requires:       iproute
 BuildRequires:  glib-devel

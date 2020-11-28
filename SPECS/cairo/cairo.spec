@@ -6,7 +6,7 @@ License:        LGPLv2 or MPLv1.1
 URL:            http://cairographics.org
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://cairographics.org/releases/%{name}-%{version}.tar.xz
 Patch0:         CVE-2018-19876.patch
 BuildRequires:  pkg-config

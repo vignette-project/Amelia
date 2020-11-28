@@ -6,7 +6,7 @@ License:	GPLv3+
 URL:		http://www.midnight-commander.org
 Group:		Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	https://ftp.midnight-commander.org/%{name}-%{version}.tar.xz
 Patch0:		disable-extfs-test.patch
 Requires:	glib pcre slang

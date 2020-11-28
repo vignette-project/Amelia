@@ -4,7 +4,7 @@ Version:        1.16.1
 Release:        4%{?dist}
 License:        BSD 2-Clause
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          Applications/System
 URL:            https://nginx.org/
 Source0:        https://nginx.org/download/%{name}-%{version}.tar.gz

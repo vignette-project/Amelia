@@ -8,7 +8,7 @@ Source0:        https://github.com/cronie-crond/cronie/releases/download/cronie-
 Source1:        run-parts.sh
 Group:          System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  libselinux-devel
 BuildRequires:  pam-devel
 BuildRequires:  systemd

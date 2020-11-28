@@ -8,7 +8,7 @@ Source0:	http://ftp.gnu.org/gnu/which/%{name}-%{version}.tar.gz
 %define sha1 which=6b6bec3d2b3d4661c164feb81b9b1d22d1359ded
 Group:		Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Conflicts:      toybox
 %description
 Program for showing the full the path of (shell) commands.

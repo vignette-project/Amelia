@@ -8,7 +8,7 @@ Release:        2%{?dist}
 License:        ASL 2.0
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            https://pypi.python.org/pypi/pyvmomi
 #Source0:       https://github.com/vmware/pyvmomi/archive/6.7.3.tar.gz
 Source0:        https://github.com/vmware/pyvmomi/archive/python-pyvmomi-6.7.3.tar.gz

@@ -5,7 +5,7 @@ Release:        4%{?dist}
 License:        BSD with advertising
 Group:          Applications/Internet
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 # No official URL found.
 Source0:        http://ftp.linux.org.uk/pub/linux/Networking/netkit/bsd-%{name}-%{version}.tar.gz
 Source1:        finger.socket

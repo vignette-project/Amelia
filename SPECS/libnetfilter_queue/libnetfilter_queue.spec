@@ -6,7 +6,7 @@ License:    GPLv2
 URL:        http://www.netfilter.org/projects/libnetfilter_queue/index.html
 Group:      System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:    http://www.netfilter.org/projects/%{name}/files/%{name}-%{version}.tar.bz2
 %define sha1 libnetfilter_queue=3d182e3211b633d0a0f8a2b12ef80dc2621f53cb
 

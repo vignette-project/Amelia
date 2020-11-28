@@ -8,7 +8,7 @@ Release:        1%{?dist}
 License:        ASL 2.0 and BSD and bzip2-1.0.4 and GPLv2 and LGPLv2+ and MIT and Public Domain and UnRar
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 URL:            https://www.clamav.net
 Source0:        %{url}/downloads/production/%{name}-%{version}.tar.gz
 

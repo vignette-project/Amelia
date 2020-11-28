@@ -6,7 +6,7 @@ License:      GPLv2+
 URL:          https://wiki.linuxfoundation.org/networking/bridge
 Group:        System Environment/Base
 Vendor:       Microsoft Corporation
-Distribution: Mariner
+Distribution: Amelia
 Source0:      https://kernel.org/pub/linux/utils/net/%{name}/%{name}-%{version}.tar.xz
 
 %description

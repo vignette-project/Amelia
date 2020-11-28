@@ -5,7 +5,7 @@ Release:        8%{?dist}%{?buildid}
 License:        BSD
 URL:            https://sourceforge.net/projects/gnu-efi
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source:         https://gigenet.dl.sourceforge.net/project/gnu-efi/gnu-efi-%{version}.tar.bz2
 Source1:        LICENSE.PTR
 

@@ -8,7 +8,7 @@ License:        BSD
 Group:          Development/Libraries
 Url:            https://bitbucket.org/stoneleaf/enum34
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://pypi.python.org/packages/bf/3e/31d502c25302814a7c2f1d3959d2a3b3f78e509002ba91aea64993936876/enum34-%{version}.tar.gz
 %define sha1    enum34=014ef5878333ff91099893d615192c8cd0b1525a
 

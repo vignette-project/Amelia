@@ -6,7 +6,7 @@ License:	GPLv2+
 URL:		http://www.gnu.org/software/automake/
 Group:		System Environment/Base
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	http://ftp.gnu.org/gnu/automake/%{name}-%{version}.tar.xz
 %define sha1 automake=1012bc79956013d53da0890f8493388a6cb20831
 BuildRequires:	autoconf

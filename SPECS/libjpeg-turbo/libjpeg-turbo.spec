@@ -6,7 +6,7 @@ License:        IJG
 URL:            http://sourceforge.net/projects/libjpeg-turbo
 Group:          System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://downloads.sourceforge.net/libjpeg-turbo/%{name}-%{version}.tar.gz
 %define sha1    libjpeg-turbo=6d74b609294b6bae5a7cde035f7d6b80d60ebb77
 Patch0:         CVE-2018-20330.patch

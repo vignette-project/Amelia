@@ -9,7 +9,7 @@ Url:            https://pypi.python.org/pypi/cffi
 License:        MIT
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://pypi.python.org/packages/source/c/cffi/cffi-%{version}.tar.gz
 %define sha1    cffi=1686e6689a691414d3d22626c837adeee3996dd9
 

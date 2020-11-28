@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            https://github.com/lm-sensors/lm-sensors
 Group:          System Drivers
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       https://github.com/lm-sensors/lm-sensors/archive/V3-5-0.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gcc

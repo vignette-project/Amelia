@@ -6,7 +6,7 @@ License:    Apache License 2.0
 URL:        https://apr.apache.org/
 Group:      System Environment/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:    http://archive.apache.org/dist/apr/%{name}-%{version}.tar.gz
 %define sha1 %{name}=5bae4ff8f1dad3d7091036d59c1c0b2e76903bf4
 %define     apuver    1

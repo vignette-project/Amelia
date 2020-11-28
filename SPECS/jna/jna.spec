@@ -9,7 +9,7 @@ License:        LGPLv2.1+ or ASL 2.0
 URL:            https://github.com/java-native-access/jna
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://github.com/java-native-access/jna/archive/%{version}/%{name}-%{version}.tar.gz
 
 Patch0:         jna_remove_clover_jar.patch

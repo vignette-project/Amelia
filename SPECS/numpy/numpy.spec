@@ -9,7 +9,7 @@ Release:        1%{?dist}
 License:        BSD and ZLIB custom
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Url:            https://numpy.org/
 Source0:        https://github.com/numpy/numpy/releases/download/v%{version}/%{name}-%{version}.tar.gz
 

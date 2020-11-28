@@ -9,7 +9,7 @@ Source1:        macros.cmake
 Patch0:         disableUnstableUT.patch
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  ncurses-devel
 BuildRequires:  xz
 BuildRequires:  xz-devel

@@ -6,7 +6,7 @@ License:    BSD
 URL:        http://sourceware.org/libffi/
 Group:      System Environment/GeneralLibraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:    https://gcc.gnu.org/pub/libffi/%{name}-%{version}.tar.gz
 Provides:   pkgconfig(libffi)
 #%if %{with_check}

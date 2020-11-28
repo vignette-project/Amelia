@@ -13,7 +13,7 @@ License:        ASL 1.1 and ASL 2.0 and BSD and BSD with advertising and GPL+ an
 URL:            https://hg.openjdk.java.net/aarch64-port/jdk8u/
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        %{_url_src}/archive/%{_repo_ver}.tar.gz
 Patch0:         Awt_build_headless_only.patch
 Patch1:         check-system-ca-certs.patch

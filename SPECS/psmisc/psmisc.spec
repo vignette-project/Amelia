@@ -6,7 +6,7 @@ License:	GPLv2+
 URL:		http://psmisc.sourceforge.net/
 Group:		Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	http://prdownloads.sourceforge.net/psmisc/%{name}-%{version}.tar.xz
 %define sha1 psmisc=2bf3ec1c87ab3bc0610c819452c21cf4b849b0b8
 BuildRequires:	ncurses-devel

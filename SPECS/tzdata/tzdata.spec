@@ -6,7 +6,7 @@ URL:            https://www.iana.org/time-zones
 License:        Public Domain
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://data.iana.org/time-zones/releases/%{name}%{version}.tar.gz
 
 BuildArch:      noarch

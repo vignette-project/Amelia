@@ -8,7 +8,7 @@ Group:		Applications/Editors
 Source0:	http://www.nano-editor.org/dist/v3/%{name}-%{version}.tar.xz
 %define sha1 nano=0396d85df64a7927ca2d3425a0263dacf8502220
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:	ncurses-devel
 Requires:	ncurses
 

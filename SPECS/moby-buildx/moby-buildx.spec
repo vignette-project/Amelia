@@ -17,7 +17,7 @@ Source1: LICENSE
 Source2: NOTICE
 URL: https://www.github.com/docker/buildx
 Vendor: Microsoft Corporation
-Distribution: Mariner
+Distribution: Amelia
 
 BuildRequires: bash
 BuildRequires: golang

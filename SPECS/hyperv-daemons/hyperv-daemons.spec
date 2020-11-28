@@ -12,7 +12,7 @@ Version:        5.4.72
 Release:        2%{?dist}
 License:        GPLv2+
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Group:          System/Kernel
 URL:            https://github.com/microsoft/WSL2-Linux-Kernel
 Source0:        https://github.com/microsoft/WSL2-Linux-Kernel/archive/linux-msft-%{version}.tar.gz

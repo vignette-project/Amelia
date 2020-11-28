@@ -8,7 +8,7 @@ License:        GPLv2+
 URL:            https://gcc.gnu.org/
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://ftp.gnu.org/gnu/gcc/%{name}-%{version}/%{name}-%{version}.tar.xz
 Patch0:         090_all_pr55930-dependency-tracking.patch
 # Only applies to the Power9 ISA

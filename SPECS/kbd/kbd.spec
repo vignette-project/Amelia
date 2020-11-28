@@ -6,7 +6,7 @@ License:	GPLv2
 URL:		http://ftp.altlinux.org/pub/people/legion/kbd
 Group:		Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:	http://ftp.altlinux.org/pub/people/legion/kbd/%{name}-%{version}.tar.xz
 %define sha1 kbd=cf5d45c62d6af70b8b1f210d89193b52f5efb05d
 Patch0:		kbd-2.0.4-backspace-1.patch

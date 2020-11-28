@@ -9,7 +9,7 @@ URL:            http://search.cpan.org/dist/YAML-Tiny/
 Source0:        https://cpan.metacpan.org/authors/id/E/ET/ETHER/YAML-Tiny-%{version}.tar.gz
 %define sha1 YAML-Tiny=32ee7a7d499c7d8c2b4672f9735901fb4de1ab88
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildArch:      noarch
 BuildRequires:  perl >= 5.28.0
 Requires:	perl >= 5.28.0

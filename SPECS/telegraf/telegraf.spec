@@ -5,7 +5,7 @@ Release:        4%{?dist}
 License:        MIT
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 URL:            https://github.com/influxdata/telegraf
 
 #Source0:       %{url}/archive/v%{version}.tar.gz

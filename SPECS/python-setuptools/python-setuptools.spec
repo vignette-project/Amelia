@@ -7,7 +7,7 @@ Release:        6%{?dist}
 License:        MIT
 Group:          Development/Languages
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 URL:            https://pypi.python.org/pypi/setuptools
 Source0:        https://files.pythonhosted.org/packages/ef/1d/201c13e353956a1c840f5d0fbf0461bd45bbd678ea4843ebf25924e8984c/setuptools-%{version}.zip
 

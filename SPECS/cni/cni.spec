@@ -9,7 +9,7 @@ URL:            https://github.com/containernetworking/plugins
 Source0:        %{name}-v%{version}.tar.gz
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  golang >= 1.5
 %define _default_cni_plugins_dir /opt/cni/bin
 

@@ -7,7 +7,7 @@ License:        BSD and Public Domain and (ASL 2.0 or CC0 1.0 or OpenSSL)
 URL:            https://www.libarchive.org/
 Group:          System Environment/Development
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://www.libarchive.org/downloads/%{name}-%{version}.tar.gz
 
 BuildRequires:  xz-libs

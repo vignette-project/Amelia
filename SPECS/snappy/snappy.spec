@@ -8,7 +8,7 @@ URL:            https://google.github.io/snappy/
 Source0:        %{name}-%{version}.tar.gz
 Group:          System/Libraries
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 BuildRequires:  cmake
 
 %description

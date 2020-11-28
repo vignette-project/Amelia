@@ -6,7 +6,7 @@ URL:            https://github.com/shadow-maint/shadow/
 License:        BSD
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://github.com/shadow-maint/shadow/releases/download/4.6/shadow-%{version}.tar.xz
 Source1:        chage
 Source2:        chpasswd

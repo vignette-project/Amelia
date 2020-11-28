@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            http://www.gnu.org/software/libtool
 Group:          Development/Tools
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://ftp.gnu.org/gnu/libtool/%{name}-%{version}.tar.xz
 %define sha1    libtool=3e7504b832eb2dd23170c91b6af72e15b56eb94e
 %description

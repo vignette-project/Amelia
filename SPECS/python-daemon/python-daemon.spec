@@ -9,7 +9,7 @@ License:        Apache-2
 Url:            https://pypi.python.org/pypi/python-daemon/
 Group:          Development/Languages/Python
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        https://files.pythonhosted.org/packages/source/p/python-daemon/%{name}-%{version}.tar.gz
 %define sha1    python-daemon=9135b7edafa5bcd457d88bb2c0dfae024b3d8778
 

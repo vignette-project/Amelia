@@ -5,7 +5,7 @@ Release:        2%{?dist}
 URL:            https://github.com/sebastiandev/zipper
 Group:          Applications/File
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 # zlib licenses comes from minizip/ source code
 License:        MIT and zlib
 

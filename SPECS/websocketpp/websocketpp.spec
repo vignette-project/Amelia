@@ -33,7 +33,7 @@ Patch4: websocketpp-0.8.1-fix_CMakeLists.txt_version_number.patch
 Patch5: websocketpp-0.8.1-boost_1.70.patch
 
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 
 BuildRequires:  boost-devel
 BuildRequires:  cmake

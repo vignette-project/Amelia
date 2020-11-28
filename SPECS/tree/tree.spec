@@ -6,7 +6,7 @@ License:        GPLv2+
 URL:            http://mama.indstate.edu/users/ice/tree/
 Group:          Applications
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://mama.indstate.edu/users/ice/tree/src/tree-%{version}.tgz
 %define sha1    tree=35bd212606e6c5d60f4d5062f4a59bb7b7b25949
 

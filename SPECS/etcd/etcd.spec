@@ -6,7 +6,7 @@ License:        ASL 2.0
 URL:            https://github.com/etcd-io/etcd/
 Group:          System Environment/Security
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 #Source0:       https://github.com/etcd-io/%{name}/archive/v%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 Source1:        etcd.service

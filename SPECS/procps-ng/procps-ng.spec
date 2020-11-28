@@ -6,7 +6,7 @@ License:        GPLv2
 URL:            http://procps.sourceforge.net/
 Group:          Applications/System
 Vendor:         Microsoft Corporation
-Distribution:   Mariner
+Distribution: Amelia
 Source0:        http://sourceforge.net/projects/procps-ng/files/Production/%{name}-%{version}.tar.xz
 %define sha1    procps-ng=2929bc64f0cf7b2db997eef79b7187658e47230d
 BuildRequires:  ncurses-devel
