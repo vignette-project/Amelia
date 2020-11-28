@@ -1,6 +1,6 @@
 Summary:	File manager
 Name:		mc
-Version:	4.8.21
+Version:	4.8.25
 Release:        4%{?dist}
 License:	GPLv3+
 URL:		http://www.midnight-commander.org
