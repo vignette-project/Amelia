@@ -1,6 +1,6 @@
 Summary:        GSL: Guidelines Support Library
 Name:           GSL
-Version:        2.0.0
+Version:        2.1.0
 Release:        3%{?dist}
 License:        MIT
 Group:          Applications/File

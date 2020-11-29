@@ -10,7 +10,7 @@ URL:           https://cython.org
 Source0:       %{name}-%{version}.tar.gz
 Patch0:        fix_abc_tests.patch
 Vendor:        Microsoft Corporation
-Distribution:  Mariner
+Distribution:  Amelia
 BuildRequires: python2-devel
 BuildRequires: python2-libs
 BuildRequires: python-xml
