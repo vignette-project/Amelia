@@ -14,12 +14,13 @@ jobs:
 
         - name: Setup Environment
           run: |
-             sudo apt update 
-             sudo apt install bubblewrap python3-bst-external
-             pip3 install --user --pre BuildStream
-             
-        - name: Test
-          run: bst track track.bst
+             mkdir -p ~/.local/bin
+             curl --get https://gitlab.com/BuildStream/buildstream/raw/master/contrib/bst-here > ~/.local/bin/bst-here
+             chmod +x ~/.local/bin/bst-here
+             export PATH="${PATH}:${HOME}/.local/bin"
+
+        - name: Test bst track
+          run: bst-here -j latest-extra track track.bst
 
         - name: "FAILED: Setup tmate session"
           if: ${{ failure() }}
