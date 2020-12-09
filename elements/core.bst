@@ -1,6 +1,6 @@
 # The core set is not expected to change as frequently as core-deps or
 # world. Adding or removing elements from here should be approved by
-# release team. Current contacts: Michael Catanzaro or Javier Jardon.
+# release team. Current contacts: Ayane Satomi or kalmariwakasten.
 kind: stack
 depends:
 - core/meta-gnome-core-os-services.bst
