@@ -8,7 +8,7 @@ build-depends:
 
 variables:
   linux-root: B921B045-1DF0-41C3-AF44-4C6F280D3FAE
-  ostree-branch: gnome-os/aarch64/raspberrypi-4
+  ostree-branch: amelia/aarch64/raspberrypi-4
   board: rpi_4
 
   sysroot: "/sysroot"
@@ -41,12 +41,12 @@ config:
   - mkdir -p "%{sysroot}/boot"
 
   - ostree admin init-fs "%{sysroot}"
-  - ostree admin os-init --sysroot="%{sysroot}" gnome-os
+  - ostree admin os-init --sysroot="%{sysroot}" amelia
 
   # U-Boot does not provide EFI variables at runtime. So /dev/gpt-auto-root
   # is not available.
   - |
-    ostree admin deploy --os="gnome-os" \
+    ostree admin deploy --os="amelia" \
          --sysroot="%{sysroot}" %{ostree-branch} \
          --karg="rw" --karg="quiet" --karg="splash" \
          --karg="root=LABEL=root" \
@@ -57,16 +57,16 @@ config:
 
   - |
     mkdir -p "%{sysroot}/etc/ostree"
-    cp -r "%{sysroot}"/ostree/boot.1/gnome-os/*/*/etc/ostree/remotes.d "%{sysroot}/etc/ostree/remotes.d"
+    cp -r "%{sysroot}"/ostree/boot.1/amelia/*/*/etc/ostree/remotes.d "%{sysroot}/etc/ostree/remotes.d"
 
   - |
     ostree admin set-origin --sysroot="%{sysroot}" \
            --index=0 \
-           gnome-os dummy \
+           amelia dummy \
            %{ostree-branch}
 
   - |
-    cp -r "%{sysroot}"/ostree/boot.1/gnome-os/*/*/boot/EFI/ "%{sysroot}/boot/"
+    cp -r "%{sysroot}"/ostree/boot.1/amelia/*/*/boot/EFI/ "%{sysroot}/boot/"
 
   - |
     cp -r "/kernel/boot/dtbs" "%{sysroot}/boot/dtb"

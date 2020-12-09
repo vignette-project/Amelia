@@ -52,24 +52,24 @@ config:
   - mkdir -p "%{sysroot}/boot"
 
   - ostree admin init-fs "%{sysroot}"
-  - ostree admin os-init --sysroot="%{sysroot}" gnome-os
+  - ostree admin os-init --sysroot="%{sysroot}" amelia
   - |
-    ostree admin deploy --os="gnome-os" \
+    ostree admin deploy --os="amelia" \
          --sysroot="%{sysroot}" %{ostree-branch} \
          --karg="rw" --karg="quiet" --karg="splash"
 
   - |
     ostree admin set-origin --sysroot="%{sysroot}" \
            --index=0 \
-           gnome-os %{ostree-remote-url} \
+           amelia %{ostree-remote-url} \
            %{ostree-branch}
 
   - |
-    # gnome-os will be provided in /etc
-    ostree remote delete gnome-os
+    # amelia will be provided in /etc
+    ostree remote delete amelia
 
   - |
-    cp -r "%{sysroot}"/ostree/boot.1/gnome-os/*/*/boot/EFI/ "%{sysroot}/boot/"
+    cp -r "%{sysroot}"/ostree/boot.1/amelia/*/*/boot/EFI/ "%{sysroot}/boot/"
 
   - |
     get_size() {

@@ -8,7 +8,7 @@ build-depends:
 
 variables:
   uuidnamespace: aea54278-2587-4075-ae67-8688ace4ce3d
-  ostree-branch: gnome-os/aarch64/raspberrypi-4
+  ostree-branch: amelia/aarch64/raspberrypi-4
 
 environment:
   OSTREE_REPO: "%{install-root}"
