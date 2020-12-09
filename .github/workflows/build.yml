@@ -24,6 +24,17 @@ jobs:
             bst-here -j latest-extra track freedesktop-sdk.bst
             bst-here -j latest-extra track --deps all track.bst
 
+        - name: Test bst build
+          run: |
+            export PATH="${PATH}:${HOME}/.local/bin"
+            bst-here -j latest-extra -o arch x86_64 build iso/image.bst
+            bst-here -j latest-extra -o arch x86_64 checkout --hardlinks iso/image.bst iso
+
+        - uses: actions/upload-artifact@v2
+          with:
+             name: amelia-nightly-iso
+             path: iso/installer.iso
+
         - name: "FAILED: Setup tmate session"
           if: ${{ failure() }}
           uses: mxschmitt/action-tmate@v3
