@@ -14,7 +14,7 @@ jobs:
 
         - name: Setup Environment
           run: |
-            sudo apt install update
+            sudo apt update
             sudo apt -y install buildstream
         - name: Test
           run: bst track track.bst
