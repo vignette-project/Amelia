@@ -21,7 +21,8 @@ jobs:
         - name: Test bst track
           run: |
             export PATH="${PATH}:${HOME}/.local/bin"
-            bst-here -j latest-extra track track.bst
+            bst-here -j latest-extra track freedesktop-sdk.bst
+            bst-here -j latest-extra track --deps all track.bst
 
         - name: "FAILED: Setup tmate session"
           if: ${{ failure() }}
