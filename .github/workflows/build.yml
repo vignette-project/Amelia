@@ -1,0 +1,28 @@
+name: test
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+    test:
+      name: test
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+          with:
+            submodules: recursive
+
+        - name: Setup Environment
+          run: |
+            sudo apt install update
+            sudo apt -y install buildstream
+        - name: Test
+          run: bst track track.bst
+
+        - name: "FAILED: Setup tmate session"
+          if: ${{ failure() }}
+          uses: mxschmitt/action-tmate@v3
