@@ -1,0 +1,4 @@
+projects:
+  amelia:
+    bootstrap/freedesktop-sdk.bst:
+    - ref: freedesktop-sdk-20.08.1.1-0-ga4a0e04b5fd9ce180e2716c4ca33b7e3d5fd7258
