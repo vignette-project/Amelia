@@ -14,8 +14,10 @@ jobs:
 
         - name: Setup Environment
           run: |
-            sudo apt update
-            sudo apt -y install buildstream bwrap
+             sudo apt update 
+             sudo apt install bubblewrap python3-bst-external
+             pip3 install --user --pre BuildStream
+             
         - name: Test
           run: bst track track.bst
 
