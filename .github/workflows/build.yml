@@ -1,13 +1,9 @@
-name: test
+name: build-debug
 
-on:
-  pull_request:
-  push:
-    branches:
-      - master
+on: [push, pull_request]
 
 jobs:
-    test:
+    track:
       name: test
       runs-on: ubuntu-latest
       steps:
