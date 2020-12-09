@@ -1,0 +1,14 @@
+kind: autotools
+sources:
+- kind: tar
+  url: tarballs_needing_help:openldap-2.4.45.tgz
+build-depends:
+- freedesktop-sdk.bst:components/groff.bst
+- freedesktop-sdk.bst:public-stacks/buildsystem-autotools.bst
+depends:
+- core-deps/berkeleydb.bst
+- freedesktop-sdk.bst:bootstrap-import.bst
+config:
+  install-commands:
+    (>):
+    - mv %{install-root}/var/run %{install-root}

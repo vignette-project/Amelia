@@ -1,38 +1,62 @@
-# Amelia-Mariner (Simply called Amelia)
+# Project Amelia
 
-Aemlia-Mariner is a Linux-based Operating System maintained voluntarily by Vignette developers to research about low latency scenarios for games and applications and how it affects the performance of these programs at interacting at such scenarios.
+Amelia is a distribution project at Vignette that is aimed for low-latency applications. Based on GNOME's gnome-build-meta project, Amelia promises to be a solid, secure, and *idiot-proof*.
 
-Amelia-Mariner is based on CBL-Mariner by MIcrosoft, a Linux distribution designed specifically for Azure 1P appliances, using rpm-ostree as a update mechanism.
+### Solid
 
-## What is CBL-Mariner?
+Built with Buildstream and OSTree, Amelia is designed to be reproducible and ensures each machine has the same copy and revision we release on our servers. 
 
-CBL-Mariner is an internal Linux distribution for Microsoft’s cloud infrastructure and edge products and services. CBL-Mariner is designed to provide a consistent platform for these devices and services and will enhance Microsoft’s ability to stay current on Linux updates. This initiative is part of Microsoft’s increasing investment in a wide range of Linux technologies, such as [SONiC](https://azure.microsoft.com/en-us/blog/sonic-the-networking-switch-software-that-powers-the-microsoft-global-cloud/), [Azure Sphere OS](https://docs.microsoft.com/en-us/azure-sphere/product-overview/what-is-azure-sphere) and [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/about). CBL-Mariner is being shared publicly as part of Microsoft’s commitment to Open Source and to contribute back to the Linux community. CBL-Mariner does not change our approach or commitment to any existing third-party Linux distribution offerings.
+### Secure
 
-## Advantages of *-Mariner based distributions
+Always building against latest versions, we make sure Amelia is built with only the latest source versions.
 
-CBL-Mariner has been engineered with the notion that a small common core set of packages can address the universal needs of first party cloud and edge services while allowing individual teams to layer additional packages on top of the common core to produce images for their workloads. This is made possible by a simple build system that enables:
+### Idiot-proof
 
-- **Package Generation:** This produces the desired set of RPM packages from SPEC files and source files. 
-- **Image Generation:** This produces the desired image artifacts like ISOs or VHDs from a given set of packages. 
+The main OS is hidden away from the user as much as possible. This makes sure you don't break your OS in any way possible that is beyond your control. In the near future, we will also abstract the terminal session away so you can  have a traditional Linux experience, sans the breaking part.
 
-Whether deployed as a container or a container host, CBL-Mariner consumes limited disk and memory resources. The lightweight characteristics of CBL-Mariner also provides faster boot times and a minimal attack surface. By focusing the features in the core image to just what is needed for our internal cloud customers there are fewer services to load, and fewer attack vectors. 
 
-When security vulnerabilities arise, CBL-Mariner supports both a package-based update model and an image based update model.  Leveraging the common [RPM Package Manager](https://rpm.org/) system, CBL-Mariner makes the latest security patches and fixes available for download with the goal of fast turn-around times.   
+## Roadmap
 
-# Getting Started with Amelia-Mariner: 
+There is still a lot to do with Amelia. For now we track the following based on the current state of the repo:
 
-Instructions for building CBL-Mariner may be found here: [Toolkit Documentation](./toolkit/README.md)
+- [] CI
+- [] OSTree CDN
+  -  We might need to inquire with a upstream project to host Amelia's OSTree branches.
+- Core features
+  - [] Isolated Terminal experience (WSL2-like as much as possible)
+  - [] Low-latency/Realtime Kernel (targeting LTS as much as possible).
+- Developer QoL
+  - [] Allow people to make deriverative by using us as a junction base.
+  - [] Forward X11/Wayland from the isolated terminal to ours. 
 
-# Acknowledgments 
+### 2.0 Roadmap
 
-Any Linux distribution, including CBL-Mariner, benefits from contributions by the open software community. We gratefully acknowledge all contributions made from the broader open source community, in particular:
+- [] Modularity
+  - This would allow us to supply multiple versions but ship the same secure base.
 
-1) The [Photon OS Project](https://vmware.github.io/photon/) for SPEC files originating from the Photon distribution.   
+- [] Editions
+  - [] Desktop
+  - [] Datacenter
 
-2) [The Fedora Project](https://start.fedoraproject.org/) for SPEC files, particularly with respect to QT, DNF and several of their dependencies. 
+## Inspiration and Motivation
 
-3) [GNU](https://www.gnu.org/) and the [Free Software Foundation](https://www.fsf.org/)
+The main inspiration for this is the Chrome OS ecosystem. Ayane Satomi used to run her own distribution (maru) but it was progressively getting worse to maintain due to the fact:
 
-4) [Linux from Scratch](http://www.linuxfromscratch.org)
+- It's  using the Gentoo buildsystem and the cascading errors were getting hard to fix.
 
-5) [Openmamba](https://openmamba.org/en/) for SPEC files
+- Architectural changes in CrOS would have to be done in a 5-year timespan at most.
+
+- There is no way to fix the current CrOS buildsystem debacle. Everyone would have to invest at least 5+ years to migrate the buildsystems and adapt the CI for it.
+
+- A lot of Chrome OS's parts are still undocumented. It was too much pain to get those undocumented parts to work.
+
+So Amelia was created to address these issues. It's also a experiment on how it would impact applications if we use a real time kernel.
+
+## Credits
+
+Amelia is Copyright &copy; The Vignette Developers. Licensed under MIT.
+
+Amelia is based on gnome-build-meta. Licensed under MIT.
+
+Amelia 1.0 contains software from GNOME. GNOME Software Stack is licensed under GPLv3.
+
