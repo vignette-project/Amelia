@@ -1,0 +1,21 @@
+Amelia is a BuildStream project. Before you make any changes, you must first tell Buildstream to track new changes on the project.
+
+so first things first is to copy everything to a working directory to build these projects. eg (cp -vRf $PWD work/) Then run this:
+
+bst track --deps all core.bst \
+                 vm/image.bst 
+                 boards/pinebook-pro/image.bst \
+                 boards/rock64/image.bst \
+                 boards/raspberrypi-4/image.bst \
+                 vm/repo-devel.bst \
+                 iso/image.bst
+
+Once that's done, you have five targets to pick:
+
+boards/raspberrypi-4/image.bst
+boards/rock64/image.bst
+boards/pinebook-pro/image.bst
+vm/image.bst
+iso/image.bst 
+
+To build a specific target just use bst build $TARGET.
