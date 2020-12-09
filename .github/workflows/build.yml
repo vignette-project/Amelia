@@ -17,10 +17,11 @@ jobs:
              mkdir -p ~/.local/bin
              curl --get https://gitlab.com/BuildStream/buildstream/raw/master/contrib/bst-here > ~/.local/bin/bst-here
              chmod +x ~/.local/bin/bst-here
-             export PATH="${PATH}:${HOME}/.local/bin"
 
         - name: Test bst track
-          run: bst-here -j latest-extra track track.bst
+          run: |
+            export PATH="${PATH}:${HOME}/.local/bin"
+            bst-here -j latest-extra track track.bst
 
         - name: "FAILED: Setup tmate session"
           if: ${{ failure() }}
