@@ -15,7 +15,7 @@ jobs:
         - name: Setup Environment
           run: |
             sudo apt update
-            sudo apt -y install buildstream
+            sudo apt -y install buildstream bwrap
         - name: Test
           run: bst track track.bst
 
