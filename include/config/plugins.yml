@@ -4,3 +4,10 @@ plugins:
   sources:
     git_tag: 0
     cargo: 0
+
+- origin: local
+  path: plugins/elements
+  elements:
+    re_import: 0
+    collect_initial_scripts: 0
+    url_manifest: 1
