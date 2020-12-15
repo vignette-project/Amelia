@@ -1,10 +1,10 @@
 kind: manual
 
 build-depends:
-- bootstrap-import.bst
+- freedesktop-sdk.bst:bootstrap-import.bst
 
 runtime-depends:
-- components/shadow.bst
+- freedesktop-sdk.bst:components/shadow.bst
 
 config:
   install-commands:

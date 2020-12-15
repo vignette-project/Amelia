@@ -5,7 +5,7 @@ build-depends:
 - deploy-tools.bst
 - core/filesystem.bst
 - core/initial-scripts.bst
-- core/prepare-image.bst
+- prepare-image.bst
 
 variables:
   uuidnamespace: df2427db-01ec-4c99-96b1-be3edb3cd9f6

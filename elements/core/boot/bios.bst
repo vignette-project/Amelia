@@ -3,7 +3,7 @@ kind: script
 build-depends:
 - core/boot/bios/deps.bst
 - core/boot/bios/initial-scripts.bst
-- core/prepare-image.bst
+- prepare-image.bst
 
 variables:
   uuidnamespace: df2427db-01ec-4c99-96b1-be3edb3cd9f6

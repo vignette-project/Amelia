@@ -1,0 +1,8 @@
+sources:
+  git:
+    config:
+      track: master
+  git_tag:
+    config:
+      track-tags: True
+      track: master

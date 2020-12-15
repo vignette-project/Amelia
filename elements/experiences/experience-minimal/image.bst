@@ -1,5 +1,8 @@
 kind: manual
 
+description: |
+  OSTree Target for a minimal experience target. This is intended only to demonstrate how to build a experience target.
+  
 build-depends:
 - freedesktop-sdk.bst:components/ostree.bst
 - deploy-tools.bst

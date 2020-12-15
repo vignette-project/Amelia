@@ -1,7 +1,7 @@
 kind: compose
 
 build-depends:
-- core/minimal/deps.bst
+- core/deps.bst
 
 config:
   exclude:

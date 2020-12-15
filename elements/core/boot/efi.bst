@@ -3,7 +3,7 @@ kind: script
 build-depends:
 - core/boot/efi/deps.bst
 - core/boot/efi/initial-scripts.bst
-- core/prepare-image.bst
+- prepare-image.bst
 
 variables:
   uuidnamespace: df2427db-01ec-4c99-96b1-be3edb3cd9f6
@@ -30,7 +30,7 @@ config:
     destination: '/'
   - element: core/boot/efi/initial-scripts.bst
     destination: '/'
-  - element: core/prepare-image.bst
+  - element: prepare-image.bst
     destination: '/'
 
   commands:

@@ -1,5 +1,7 @@
 mirrors:
 
+# Some upstream git repos are pretty unstable
+# So let's use the freedesktop sdk mirror minimally
 - name: freedesktop_sdk_mirrors
   aliases:
     kernel:
