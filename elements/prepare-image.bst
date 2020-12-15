@@ -14,4 +14,4 @@ config:
 
 sources:
 - kind: local
-  path: files/vm/prepare-image.sh
+  path: files/prepare-image.sh
