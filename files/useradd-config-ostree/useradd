@@ -1,0 +1,16 @@
+# group 100 is 'users' created by systemd sysusers.d
+GROUP=100
+INACTIVE=-1
+EXPIRE=
+SHELL=/bin/bash
+SKEL=/etc/skel
+CREATE_MAIL_SPOOL=no
+
+# Even though we have a symlink /home -> var/home, we should not use
+# /home in /etc/passwd. The real root filesystem (which is /sysroot)
+# is not mounted as recursive shared on OSTree.  When the home
+# directory in /etc/passwd is defined to use the symlink, then mounts
+# in home are mounted on this /sysroot instead of /var.  That means
+# that the mount does not propagate in Flatpak applications. This
+# breaks Flatpak Builder and BuildStream which require fuse mounts.
+HOME=/var/home

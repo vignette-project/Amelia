@@ -1,0 +1,6 @@
+plugins:
+- origin: pip
+  package-name: buildstream-external
+  sources:
+    git_tag: 0
+    cargo: 0

@@ -1,0 +1,39 @@
+# Individual flags that can be disabled
+cflags-optimize: '-O2'
+cflags-pipe: '-pipe'
+cflags-debug: '-g'
+cflags-fortify-source: '-Wp,-D_FORTIFY_SOURCE=2'
+cflags-glibcxx-assertions: '-Wp,-D_GLIBCXX_ASSERTIONS'
+cflags-exceptions: '-fexceptions'
+cflags-stack-protect-strong: '-fstack-protector-strong'
+cflags-record-gcc-switches: '-grecord-gcc-switches'
+cflags-async-unwind-tables: '-fasynchronous-unwind-tables'
+cflags-stack-clash-protection: '-fstack-clash-protection'
+
+# Common cflags shared between architectures
+cflags-common: >-
+  %{cflags-optimize}
+  %{cflags-pipe}
+  %{cflags-debug}
+  %{cflags-fortify-source}
+  %{cflags-glibcxx-assertions}
+  %{cflags-exceptions}
+  %{cflags-stack-protect-strong}
+  %{cflags-record-gcc-switches}
+  %{cflags-async-unwind-tables}
+  %{cflags-stack-clash-protection}
+
+# Arch-specific cflags
+cflags-arch-x86_64: '-fcf-protection -march=x86-64 -mtune=generic'
+cflags-arch-other: ''
+cflags-arch: '%{cflags-arch-x86_64}' # TODO: Use an option
+
+# Compose everything together
+cflags-global: '%{cflags-common} %{cflags-arch}'
+cflags-local: ''
+cflags: '%{cflags-global} %{cflags-local}'
+
+# Linker flags
+ldflags-global: '-Wl,-z,relro,-z,now -Wl,--as-needed'
+ldflags-local: ''
+ldflags: '%{ldflags-global} %{ldflags-local}'
