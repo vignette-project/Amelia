@@ -1,110 +1,104 @@
-kind: manual
+kind: script
 
 description: |
-  OSTree Target for a minimal experience target. This is intended only to demonstrate how to build a experience target.
-  
+   This is a buildable demo of Amelia, it doesn't contain anything but the CLI itself. If you want the installer experience you will have to do it yourself.
+   This is intended for integration tests mostly.
+
 build-depends:
-- freedesktop-sdk.bst:components/ostree.bst
-- deploy-tools.bst
+- core/iso-build-deps.bst
+- core/filesystem.bst
+- core/initial-scripts.bst
+- core/initramfs.bst
 
 variables:
-  uuidnamespace: df2427db-01ec-4c99-96b1-be3edb3cd9f6
-  (?):
-  - target_arch == "x86_64":
-      linux-root: 4F68BCE3-E8CD-4DB1-96E7-FBCAF984B709
-  - target_arch == "i686":
-      linux-root: 44479540-F297-41B2-9AF7-D131D5F0458A
-  - target_arch == "arm":
-      linux-root: 69DAD710-2CE4-4E3C-B16C-21A1D49ABED3
-  - target_arch == "aarch64":
-      linux-root: B921B045-1DF0-41C3-AF44-4C6F280D3FAE
-
-  (@):
-  - ostree-config.yml
-
-  sysroot: "%{build-root}/sysroot"
-
-environment:
-  OSTREE_REPO: "%{sysroot}/ostree/repo"
+  install-root: /build/install-root
+  uuidnamespace: aea54278-2587-4075-ae67-8688ace4ce3d
 
 config:
-  build-commands:
-  - mkdir -p "${OSTREE_REPO}"
-  - ostree init --repo="${OSTREE_REPO}" --mode=bare
+  layout:
+  - element: ''
+    destination: /tmp
+  - element: ''
+    destination: /build
+  - element: core/iso-build-deps.bst
+    destination: /
+  - element: core/filesystem.bst
+    destination: /sysroot
+  - element: core/initramfs.bst
+    destination: /sysroot/efi
+  - element: core/initial-scripts.bst
+    destination: /
 
-  - ostree config --group sysroot set bootloader none
-  - ostree pull-local "%{build-root}/source-repo" %{ostree-branch}
-
-  - mkdir -p "%{sysroot}/boot"
-
-  - ostree admin init-fs "%{sysroot}"
-  - ostree admin os-init --sysroot="%{sysroot}" amelia-os
-  - |
-    ostree admin deploy --os="amelia-os" \
-         --sysroot="%{sysroot}" %{ostree-branch} \
-         --karg="rw" --karg=console=ttyS0
-
-  - |
-    mkdir -p "%{sysroot}/etc/ostree"
-    cp -r "%{sysroot}"/ostree/boot.1/amelia-os/*/*/etc/ostree/remotes.d "%{sysroot}/etc/ostree/remotes.d"
-
-  - |
-    ostree admin set-origin --sysroot="%{sysroot}" \
-           --index=0 \
-           AmeliaOS dummy \
-           %{ostree-branch}
+  commands:
+  - mkdir -p /build/images
+  - mkdir -p /build/install-root
+  - mkdir -p /build/stage-1
+  - mkdir -p /build/stage-2
+  - mkdir -p /build/sysroot-stage-2
 
   - |
-    cp -r "%{sysroot}"/ostree/boot.1/amelia-os/*/*/boot/EFI/ "%{sysroot}/boot/"
+    prepare-image.sh \
+       --sysroot /sysroot \
+       --seed "%{uuidnamespace}" \
+       --rootsource LABEL="%{installer-volume-id}" \
+       --rootfstype iso9660 \
+       --noboot >/dev/null
 
   - |
-    mkdir -p genimage
-
-  - |
-    cat >genimage/genimage.cfg <<EOF
+    get_size() {
+      size=$(($(du --apparent-size -B 512 -s "${1}" | cut -f1)/2))
+      echo $((${size}+(${size}/10)))k
+    }
+    cat >/build/stage-1/genimage.cfg <<EOF
     image efi.img {
+        mountpoint = "/efi"
         vfat {
             extraargs = "-F32 -n EFI"
         }
-        mountpoint = "/boot"
-        size = 100M
+        size = $(get_size /sysroot/efi)
     }
-    image root.img {
-        ext4  {
-            label = "root"
-            use-mke2fs = true
+    image squashfs.img {
+        mountpoint = "/"
+        squashfs  {
         }
-        size = 1G
     }
-    image disk.img {
-        hdimage {
-            align = 1M
-            gpt = true
-        }
-        partition efi {
-            image = "efi.img"
-            partition-type-uuid = "U"
-        }
-        partition root {
-            image = "root.img"
-            partition-type-uuid = "%{linux-root}"
-        }
+    config {
+        rootpath = "/sysroot"
+        inputpath = "/build/images"
+        outputpath = "/build/images"
     }
     EOF
 
   - |
-    cd genimage
-    genimage --rootpath "%{sysroot}"
+    cat >/build/stage-2/genimage.cfg <<EOF
+    image installer.iso {
+        iso {
+            extraargs = "-e /efi.img -no-emul-boot -boot-load-size 4 -efi-boot-part --efi-boot-image -sysid LINUX -publisher Amelia"
+            volume-id = "%{installer-volume-id}"
+        }
+    }
+    config {
+        rootpath = "/build/sysroot-stage-2"
+        inputpath = "/build/images"
+        outputpath = "/build/images"
+        genisoimage = "xorrisofs"
+    }
+    EOF
 
   - |
-    install -Dm644 -t "%{install-root}" genimage/images/disk.img
+    cd /build/stage-1
+    genimage
 
-sources:
-- kind: ostree_mirror
-  gpg: files/vm/ostree-config/fdsdk.gpg
-  path: ostree-repo
-  match: 'freedesktop-sdk-*'
-  directory: source-repo
-  ref:
-  - ref: freedesktop-sdk-20.08beta-x86_64
-    checksum: 0a8eca3dfafae7cf0a1ea6485948f58152762110bd13dba36d22d9ce10d17ad4
+  - |
+    mkdir -p "/build/sysroot-stage-2/LiveOS"
+    mv "/build/images/squashfs.img" \
+       "/build/sysroot-stage-2/LiveOS/"
+    mv "/build/images/efi.img" \
+       "/build/sysroot-stage-2/"
+
+  - |
+    cd /build/stage-2
+    genimage
+
+  - mv /build/images/installer.iso "%{install-root}/"
+  - implantisomd5 "%{install-root}/installer.iso"

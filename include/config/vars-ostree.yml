@@ -1,0 +1,6 @@
+branch: 2.0-exp
+branch-nice-name: '%{branch}' #Should be %{branch} if not master
+installer-volume-id: "Amelia-%{branch-nice-name}-%{arch}"
+ostree-layer: user
+ostree-branch: "amelia/%{branch}/%{arch}-%{ostree-layer}"
+ostree-remote-url: ""

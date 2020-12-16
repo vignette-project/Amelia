@@ -4,6 +4,10 @@ plugins:
   sources:
     git_tag: 0
     cargo: 0
+    x86image: 0
+    collect_manifest: 0
+    flatpak_image: 0
+    flatpak_repo: 0
 
 - origin: local
   path: plugins/elements

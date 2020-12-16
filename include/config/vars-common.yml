@@ -1,0 +1,6 @@
+indep-libdir: "%{prefix}/lib"
+sysconfdir: "/etc"
+localstatedir: "/var"
+
+(@):
+  - freedesktop-sdk.bst:include/strip.yml

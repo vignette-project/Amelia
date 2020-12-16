@@ -5,6 +5,5 @@ build-depends:
 
 config:
   exclude:
-  - debug
   - devel
-  include-orphans: True
+  - debug

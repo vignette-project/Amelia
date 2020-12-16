@@ -1,18 +1,8 @@
 options:
-  bootstrap_build_arch:
+  arch:
     type: arch
     description: Architecture
-    variable: sandbox_arch
-    values:
-    - arm
-    - aarch64
-    - i686
-    - x86_64
-    - ppc64le
-
-  target_arch:
-    type: arch
-    description: Architecture
+    variable: arch
     values:
     - arm
     - aarch64

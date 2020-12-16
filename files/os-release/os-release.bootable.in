@@ -1,0 +1,9 @@
+NAME="Project Amelia"
+VERSION=@SDK_BRANCH@
+VERSION_ID=@SDK_BRANCH@
+ID=org.vignette.amelia
+PRETTY_NAME="@FULL_NAME@ (@SDK_BRANCH@)"
+BUG_REPORT_URL="https://github.com/vignette-project/Amelia/issues/new/"
+HOME_URL="https://github.com/vignette-project/Amelia/"
+VARIANT="@VARIANT@"
+VARIANT_ID=@VARIANT_ID@
