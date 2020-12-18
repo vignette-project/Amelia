@@ -2,7 +2,7 @@ kind: meson
 sources:
 - kind: git_tag
   url: gitlab_gnome_org:GNOME/gobject-introspection.git
-  track: master
+  track: gnome-3-38
 build-depends:
 - shared/pkgs/gtk-doc.bst
 - freedesktop-sdk.bst:components/bison.bst
