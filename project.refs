@@ -1,0 +1,21 @@
+projects:
+  amelia:
+    shared/pkgs/python-pygments.bst:
+    - ref: 5ffada19f6203563680669ee7f53b64dabbeb100eb51b61996085e99c03b284a
+    core/isomd5sum.bst:
+    - ref: b0e706f470c336f689f43ddea33a85aed43fa7e5276221c7ac930e22f795c93c
+    core/pkgs/libostree.bst:
+    - ref: 9568156d147865f0f744373288039dbde784c0cf1de37fdd2cacf4e950790875
+    - {}
+    core/pkgs/libisoburn.bst:
+    - ref: cc720bc9511d8e0b09365e2c8b0e40817986be308cd96ca2705c807c955590ec
+    core/pkgs/libburn.bst:
+    - ref: 881903ab5c9b3314ce60029b6d709697b79d4ff5ad7efc14d06dddab054b37f7
+    core/pkgs/libisofs.bst:
+    - ref: ef5a139600b3e688357450e52381e40ec26a447d35eb8d21524598c7b1675500
+    shared/pkgs/gtk-doc.bst:
+    - ref: 1.33.1-0-gfbc159c5d1c53d6e957dde9e27e8d4df40be67d3
+    shared/pkgs/gobject-introspection.bst:
+    - ref: 1.66.1-0-g0de3f99f59290755de7b4909fe1d01c322657107
+    shared/pkgs/glib.bst:
+    - ref: 2.67.1-0-g55b4a25eaf0069f84219b685a3fc10db922f7414
