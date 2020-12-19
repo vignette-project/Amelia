@@ -4,12 +4,12 @@ mirrors:
 # So let's use the freedesktop sdk mirror minimally
 - name: freedesktop_sdk_mirrors
   aliases:
-    kernel:
-    - https://gitlab.com/freedesktop-sdk/mirrors/kernel/
-    sourceware:
-    - https://gitlab.com/freedesktop-sdk/mirrors/sourceware/
+    kernel: 
+      - https://gitlab.com/freedesktop-sdk/mirrors/kernel/
+    sourceware: 
+      - https://gitlab.com/freedesktop-sdk/mirrors/sourceware/
 
 - name: kernel_org
   aliases:
-    gnu-ftp:
-    - https://mirrors.kernel.org/gnu/
+    gnu-ftp: 
+      - https://mirrors.kernel.org/gnu/

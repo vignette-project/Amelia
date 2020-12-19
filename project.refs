@@ -18,4 +18,4 @@ projects:
     shared/pkgs/gobject-introspection.bst:
     - ref: 1.66.1-0-g0de3f99f59290755de7b4909fe1d01c322657107
     shared/pkgs/glib.bst:
-    - ref: 2.67.1-0-g55b4a25eaf0069f84219b685a3fc10db922f7414
+    - ref: 2.66.4-0-gbacbec652d356895ec493f3de2f2f6f4c7dafde0

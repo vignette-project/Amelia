@@ -16,6 +16,7 @@ shell:
   - /sys
   - '${XDG_RUNTIME_DIR}'
 
+
   # Plausible video devices
   - path: '/dev/dri'
     optional: True
